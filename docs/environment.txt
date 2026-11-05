@@ -1,0 +1,11 @@
+﻿Recorded: 2026-11-05 11:56
+Python 3.12.10
+git version 2.56.0.windows.4
+ollama version is 0.40.14
+tesseract v5.4.0.20240606
+psql (PostgreSQL) 16.15
+name, driver_version, memory.total [MiB]
+NVIDIA GeForce RTX 3050 Ti Laptop GPU, 610.60, 4096 MiB
+NAME          ID              SIZE      MODIFIED     
+qwen2.5:3b    357c53fb659c    1.9 GB    11 hours ago    
+qwen3:4b      359d7dd4bcda    2.5 GB    11 hours ago    
