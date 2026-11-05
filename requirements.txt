@@ -1,0 +1,16 @@
+﻿pymupdf
+pytesseract
+pillow
+pydantic
+pandas
+pyarrow
+sqlalchemy
+psycopg[binary]
+streamlit
+scikit-learn
+pytest
+ollama
+python-dotenv
+faker
+reportlab
+matplotlib
