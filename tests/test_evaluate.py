@@ -38,3 +38,19 @@ def test_invoice_exact_needs_all_fields_and_items():
     assert evaluate_invoice(dict(truth), truth)["invoice_exact"]
     assert not evaluate_invoice({**truth, "currency": "USD"}, truth)["invoice_exact"]
     assert not evaluate_invoice({**truth, "line_items": []}, truth)["invoice_exact"]
+
+
+def test_malformed_model_output_never_crashes():
+    t = [item("A"), item("B", 2, 3.0, 6.0)]
+    bad = [item("A", None, 2.0, 2.0), "text", {"description": "B"}, item("B", "2", 3.0, 6.0), None]
+    s = item_scores(bad, t)
+    assert s["recall"] == 0.0 and not s["exact"]
+    assert item_scores("not a list", t)["recall"] == 0.0
+    assert item_scores([item("A")], t)["recall"] == 0.5
+
+
+def test_strict_types_for_fields():
+    assert field_outcome("total_amount", "1.234,56", 1234.56) == "wrong"
+    assert field_outcome("total_amount", True, 1.0) == "wrong"
+    assert field_outcome("invoice_number", 2025, "2025") == "wrong"
+    assert field_outcome("invoice_number", ["x"], "x") == "wrong"
