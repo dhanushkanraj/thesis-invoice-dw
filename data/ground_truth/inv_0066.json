@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV-2026-8554",
+  "supplier_name": "Ashford Logistics Ltd",
+  "supplier_tax_id": "FR52959553532",
+  "invoice_date": "2026-05-23",
+  "due_date": "2026-06-22",
+  "currency": "EUR",
+  "subtotal": 9475.54,
+  "tax_amount": 1989.86,
+  "total_amount": 11465.4,
+  "line_items": [
+    {
+      "description": "Software license, annual",
+      "quantity": 17.0,
+      "unit_price": 400.56,
+      "line_total": 6809.52
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 1.0,
+      "unit_price": 85.69,
+      "line_total": 85.69
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 6.0,
+      "unit_price": 4.03,
+      "line_total": 24.18
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 4.0,
+      "unit_price": 187.07,
+      "line_total": 748.28
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 12.0,
+      "unit_price": 20.92,
+      "line_total": 251.04
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 17.0,
+      "unit_price": 7.59,
+      "line_total": 129.03
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 5.0,
+      "unit_price": 285.56,
+      "line_total": 1427.8
+    }
+  ]
+}

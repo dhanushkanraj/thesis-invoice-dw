@@ -1,0 +1,31 @@
+{
+  "invoice_number": "RN-009464",
+  "supplier_name": "Fischer Bürotechnik GmbH & Co. KG",
+  "supplier_tax_id": "DE936973407",
+  "invoice_date": "2025-01-14",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 8098.48,
+  "tax_amount": 1538.71,
+  "total_amount": 9637.19,
+  "line_items": [
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 18.0,
+      "unit_price": 359.35,
+      "line_total": 6468.3
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 17.0,
+      "unit_price": 59.54,
+      "line_total": 1012.18
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 20.0,
+      "unit_price": 30.9,
+      "line_total": 618.0
+    }
+  ]
+}

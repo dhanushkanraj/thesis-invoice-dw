@@ -1,0 +1,37 @@
+{
+  "invoice_number": "RN-006134",
+  "supplier_name": "Fischer IT-Service GmbH & Co. KG",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-02-08",
+  "due_date": "2026-03-10",
+  "currency": "EUR",
+  "subtotal": null,
+  "tax_amount": 1358.37,
+  "total_amount": 8507.68,
+  "line_items": [
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 8.0,
+      "unit_price": 313.75,
+      "line_total": 2510.0
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 19.0,
+      "unit_price": 153.36,
+      "line_total": 2913.84
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 3.0,
+      "unit_price": 380.73,
+      "line_total": 1142.19
+    },
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 4.0,
+      "unit_price": 145.82,
+      "line_total": 583.28
+    }
+  ]
+}

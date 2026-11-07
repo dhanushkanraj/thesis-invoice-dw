@@ -1,0 +1,19 @@
+{
+  "invoice_number": "RE-2025-3331",
+  "supplier_name": "Weber IT-Service AG",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-05-07",
+  "due_date": "2025-06-06",
+  "currency": "EUR",
+  "subtotal": 2118.69,
+  "tax_amount": 402.55,
+  "total_amount": 2521.24,
+  "line_items": [
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 19.0,
+      "unit_price": 111.51,
+      "line_total": 2118.69
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "invoice_number": "INV004570",
+  "supplier_name": "Brightline Consulting PLC",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-01-22",
+  "due_date": "2026-02-05",
+  "currency": "GBP",
+  "subtotal": 53.13,
+  "tax_amount": 10.63,
+  "total_amount": 63.76,
+  "line_items": [
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 3.0,
+      "unit_price": 11.49,
+      "line_total": 34.47
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 3.0,
+      "unit_price": 6.22,
+      "line_total": 18.66
+    }
+  ]
+}

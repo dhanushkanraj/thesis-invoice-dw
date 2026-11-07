@@ -1,0 +1,37 @@
+{
+  "invoice_number": "#00634",
+  "supplier_name": "Ironwood Technologies Inc.",
+  "supplier_tax_id": "70-1393396",
+  "invoice_date": "2025-03-15",
+  "due_date": "2025-03-29",
+  "currency": "USD",
+  "subtotal": 3668.24,
+  "tax_amount": 256.78,
+  "total_amount": 3925.02,
+  "line_items": [
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 3.0,
+      "unit_price": 455.74,
+      "line_total": 1367.22
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 6.0,
+      "unit_price": 252.13,
+      "line_total": 1512.78
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 16.0,
+      "unit_price": 26.2,
+      "line_total": 419.2
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 4.0,
+      "unit_price": 92.26,
+      "line_total": 369.04
+    }
+  ]
+}

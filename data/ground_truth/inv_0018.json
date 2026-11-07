@@ -1,0 +1,25 @@
+{
+  "invoice_number": "INV-2025-7632",
+  "supplier_name": "Harbor Technologies B.V.",
+  "supplier_tax_id": "FR41989853230",
+  "invoice_date": "2025-02-26",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 3894.32,
+  "tax_amount": 895.69,
+  "total_amount": 4790.01,
+  "line_items": [
+    {
+      "description": "Wireless keyboard",
+      "quantity": 1.0,
+      "unit_price": 86.48,
+      "line_total": 86.48
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 8.0,
+      "unit_price": 475.98,
+      "line_total": 3807.84
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "invoice_number": "#03915",
+  "supplier_name": "Harbor Industrial LLC",
+  "supplier_tax_id": "08-3554051",
+  "invoice_date": "2026-05-01",
+  "due_date": "2026-05-31",
+  "currency": "USD",
+  "subtotal": null,
+  "tax_amount": 0.0,
+  "total_amount": 17308.23,
+  "line_items": [
+    {
+      "description": "Wireless keyboard",
+      "quantity": 14.0,
+      "unit_price": 46.99,
+      "line_total": 657.86
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 14.0,
+      "unit_price": 174.49,
+      "line_total": 2442.86
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 3.0,
+      "unit_price": 270.45,
+      "line_total": 811.35
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 20.0,
+      "unit_price": 4.82,
+      "line_total": 96.4
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 8.0,
+      "unit_price": 110.7,
+      "line_total": 885.6
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 18.0,
+      "unit_price": 97.87,
+      "line_total": 1761.66
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 7.0,
+      "unit_price": 4.55,
+      "line_total": 31.85
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 20.0,
+      "unit_price": 48.77,
+      "line_total": 975.4
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 7.0,
+      "unit_price": 166.26,
+      "line_total": 1163.82
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 4.0,
+      "unit_price": 134.91,
+      "line_total": 539.64
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 17.0,
+      "unit_price": 23.71,
+      "line_total": 403.07
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 14.0,
+      "unit_price": 475.03,
+      "line_total": 6650.42
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 10.0,
+      "unit_price": 88.83,
+      "line_total": 888.3
+    }
+  ]
+}

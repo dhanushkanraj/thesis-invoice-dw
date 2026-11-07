@@ -1,0 +1,103 @@
+{
+  "invoice_number": "RN-009295",
+  "supplier_name": "Wagner IT-Service AG",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-01-19",
+  "due_date": "2025-02-02",
+  "currency": "EUR",
+  "subtotal": 14949.87,
+  "tax_amount": 2840.48,
+  "total_amount": 17790.35,
+  "line_items": [
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 11.0,
+      "unit_price": 266.11,
+      "line_total": 2927.21
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 8.0,
+      "unit_price": 8.58,
+      "line_total": 68.64
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 5.0,
+      "unit_price": 266.94,
+      "line_total": 1334.7
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 3.0,
+      "unit_price": 291.26,
+      "line_total": 873.78
+    },
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 2.0,
+      "unit_price": 104.09,
+      "line_total": 208.18
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 5.0,
+      "unit_price": 12.33,
+      "line_total": 61.65
+    },
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 4.0,
+      "unit_price": 125.04,
+      "line_total": 500.16
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 6.0,
+      "unit_price": 78.1,
+      "line_total": 468.6
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 4.0,
+      "unit_price": 29.29,
+      "line_total": 117.16
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 4.0,
+      "unit_price": 124.75,
+      "line_total": 499.0
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 8.0,
+      "unit_price": 82.1,
+      "line_total": 656.8
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 15.0,
+      "unit_price": 11.9,
+      "line_total": 178.5
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 10.0,
+      "unit_price": 589.14,
+      "line_total": 5891.4
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 19.0,
+      "unit_price": 4.21,
+      "line_total": 79.99
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 10.0,
+      "unit_price": 108.41,
+      "line_total": 1084.1
+    }
+  ]
+}

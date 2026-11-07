@@ -1,0 +1,19 @@
+{
+  "invoice_number": "R202604267",
+  "supplier_name": "Hoffmann Elektro e.K.",
+  "supplier_tax_id": "DE577003618",
+  "invoice_date": "2026-04-27",
+  "due_date": "2026-06-26",
+  "currency": "EUR",
+  "subtotal": 308.9,
+  "tax_amount": 0.0,
+  "total_amount": 308.9,
+  "line_items": [
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 10.0,
+      "unit_price": 30.89,
+      "line_total": 308.9
+    }
+  ]
+}

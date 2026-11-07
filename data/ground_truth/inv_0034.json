@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV-2025-6953",
+  "supplier_name": "Bluepeak Industrial PLC",
+  "supplier_tax_id": "GB812930237",
+  "invoice_date": "2025-05-17",
+  "due_date": "2025-06-16",
+  "currency": "GBP",
+  "subtotal": 1041.66,
+  "tax_amount": 208.33,
+  "total_amount": 1249.99,
+  "line_items": [
+    {
+      "description": "Delivery and installation",
+      "quantity": 18.0,
+      "unit_price": 53.37,
+      "line_total": 960.66
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 6.0,
+      "unit_price": 5.89,
+      "line_total": 35.34
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 6.0,
+      "unit_price": 7.61,
+      "line_total": 45.66
+    }
+  ]
+}

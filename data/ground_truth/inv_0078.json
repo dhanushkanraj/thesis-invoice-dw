@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV001731",
+  "supplier_name": "Ironwood Wholesale GmbH",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-04-16",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 8948.84,
+  "tax_amount": 0.0,
+  "total_amount": 8948.84,
+  "line_items": [
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 19.0,
+      "unit_price": 63.68,
+      "line_total": 1209.92
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 10.0,
+      "unit_price": 64.89,
+      "line_total": 648.9
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 17.0,
+      "unit_price": 417.06,
+      "line_total": 7090.02
+    }
+  ]
+}

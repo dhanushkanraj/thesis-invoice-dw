@@ -1,0 +1,25 @@
+{
+  "invoice_number": "INV003435",
+  "supplier_name": "Bluepeak Supplies Ltd",
+  "supplier_tax_id": "GB371041577",
+  "invoice_date": "2025-09-01",
+  "due_date": "2025-10-01",
+  "currency": "GBP",
+  "subtotal": 2081.6,
+  "tax_amount": 416.32,
+  "total_amount": 2497.92,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.5,
+      "unit_price": 115.33,
+      "line_total": 173.0
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 12.0,
+      "unit_price": 159.05,
+      "line_total": 1908.6
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "invoice_number": "2025/2738",
+  "supplier_name": "Harbor Industrial Corp.",
+  "supplier_tax_id": "78-4066150",
+  "invoice_date": "2025-09-07",
+  "due_date": "2025-09-21",
+  "currency": "USD",
+  "subtotal": 4737.46,
+  "tax_amount": 420.45,
+  "total_amount": 5157.91,
+  "line_items": [
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 12.0,
+      "unit_price": 83.83,
+      "line_total": 1005.96
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 7.0,
+      "unit_price": 174.86,
+      "line_total": 1224.02
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 12.0,
+      "unit_price": 7.24,
+      "line_total": 86.88
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 10.0,
+      "unit_price": 242.06,
+      "line_total": 2420.6
+    }
+  ]
+}

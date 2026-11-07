@@ -1,0 +1,55 @@
+{
+  "invoice_number": "RN-000680",
+  "supplier_name": "Müller Bürotechnik GmbH & Co. KG",
+  "supplier_tax_id": "DE949891021",
+  "invoice_date": "2026-02-13",
+  "due_date": "2026-03-15",
+  "currency": "EUR",
+  "subtotal": 11246.3,
+  "tax_amount": 787.24,
+  "total_amount": 12033.54,
+  "line_items": [
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 11.0,
+      "unit_price": 355.29,
+      "line_total": 3908.19
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 19.0,
+      "unit_price": 150.86,
+      "line_total": 2866.34
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 11.0,
+      "unit_price": 58.12,
+      "line_total": 639.32
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 18.0,
+      "unit_price": 164.77,
+      "line_total": 2965.86
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 15.0,
+      "unit_price": 24.83,
+      "line_total": 372.45
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 4.0,
+      "unit_price": 5.19,
+      "line_total": 20.76
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 1.0,
+      "unit_price": 473.38,
+      "line_total": 473.38
+    }
+  ]
+}

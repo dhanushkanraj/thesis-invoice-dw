@@ -1,0 +1,37 @@
+{
+  "invoice_number": "#00826",
+  "supplier_name": "Evergreen Logistics Ltd",
+  "supplier_tax_id": "FR41898780059",
+  "invoice_date": "2025-10-27",
+  "due_date": "2025-11-10",
+  "currency": "EUR",
+  "subtotal": 8576.31,
+  "tax_amount": 1801.03,
+  "total_amount": 10377.34,
+  "line_items": [
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 12.0,
+      "unit_price": 357.84,
+      "line_total": 4294.08
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 15.0,
+      "unit_price": 92.63,
+      "line_total": 1389.45
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 5.0,
+      "unit_price": 26.62,
+      "line_total": 133.1
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 8.0,
+      "unit_price": 344.96,
+      "line_total": 2759.68
+    }
+  ]
+}

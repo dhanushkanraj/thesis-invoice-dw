@@ -1,0 +1,67 @@
+{
+  "invoice_number": "INV000272",
+  "supplier_name": "Bluepeak Supplies LLC",
+  "supplier_tax_id": "03-6772658",
+  "invoice_date": "2026-01-29",
+  "due_date": "2026-03-30",
+  "currency": "USD",
+  "subtotal": 9528.36,
+  "tax_amount": 845.64,
+  "total_amount": 10374.0,
+  "line_items": [
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 13.0,
+      "unit_price": 7.79,
+      "line_total": 101.27
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 4.0,
+      "unit_price": 131.11,
+      "line_total": 524.44
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 2.0,
+      "unit_price": 192.61,
+      "line_total": 385.22
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 15.0,
+      "unit_price": 183.36,
+      "line_total": 2750.4
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 4.0,
+      "unit_price": 66.6,
+      "line_total": 266.4
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 17.0,
+      "unit_price": 26.86,
+      "line_total": 456.62
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 3.0,
+      "unit_price": 293.73,
+      "line_total": 881.19
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 16.0,
+      "unit_price": 246.43,
+      "line_total": 3942.88
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 14.0,
+      "unit_price": 15.71,
+      "line_total": 219.94
+    }
+  ]
+}

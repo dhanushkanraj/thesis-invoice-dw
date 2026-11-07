@@ -1,0 +1,25 @@
+{
+  "invoice_number": "#02953",
+  "supplier_name": "Bluepeak Wholesale PLC",
+  "supplier_tax_id": "GB373665705",
+  "invoice_date": "2025-08-02",
+  "due_date": "2025-08-16",
+  "currency": "GBP",
+  "subtotal": null,
+  "tax_amount": 449.33,
+  "total_amount": 2695.97,
+  "line_items": [
+    {
+      "description": "Software license, annual",
+      "quantity": 11.0,
+      "unit_price": 194.84,
+      "line_total": 2143.24
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 2.0,
+      "unit_price": 51.7,
+      "line_total": 103.4
+    }
+  ]
+}

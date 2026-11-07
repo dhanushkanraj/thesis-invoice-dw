@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV-2025-8823",
+  "supplier_name": "Summit Industrial LLC",
+  "supplier_tax_id": "04-8894572",
+  "invoice_date": "2025-04-01",
+  "due_date": "2025-05-01",
+  "currency": "USD",
+  "subtotal": 6218.45,
+  "tax_amount": 0.0,
+  "total_amount": 6218.45,
+  "line_items": [
+    {
+      "description": "USB-C docking station",
+      "quantity": 16.0,
+      "unit_price": 160.81,
+      "line_total": 2572.96
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 11.0,
+      "unit_price": 103.25,
+      "line_total": 1135.75
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 14.0,
+      "unit_price": 3.9,
+      "line_total": 54.6
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 19.0,
+      "unit_price": 63.14,
+      "line_total": 1199.66
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 11.0,
+      "unit_price": 23.33,
+      "line_total": 256.63
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 10.0,
+      "unit_price": 6.27,
+      "line_total": 62.7
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 15.0,
+      "unit_price": 62.41,
+      "line_total": 936.15
+    }
+  ]
+}

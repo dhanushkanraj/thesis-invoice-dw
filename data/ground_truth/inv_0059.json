@@ -1,0 +1,43 @@
+{
+  "invoice_number": "#03615",
+  "supplier_name": "Ironwood Systems Ltd",
+  "supplier_tax_id": "GB849904347",
+  "invoice_date": "2025-05-17",
+  "due_date": "2025-07-16",
+  "currency": "GBP",
+  "subtotal": 3987.8,
+  "tax_amount": 797.56,
+  "total_amount": 4785.36,
+  "line_items": [
+    {
+      "description": "LED desk lamp",
+      "quantity": 8.0,
+      "unit_price": 52.63,
+      "line_total": 421.04
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 12.0,
+      "unit_price": 2.65,
+      "line_total": 31.8
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 2.0,
+      "unit_price": 570.28,
+      "line_total": 1140.56
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 15.0,
+      "unit_price": 6.96,
+      "line_total": 104.4
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 5.0,
+      "unit_price": 458.0,
+      "line_total": 2290.0
+    }
+  ]
+}

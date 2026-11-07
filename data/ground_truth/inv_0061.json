@@ -1,0 +1,25 @@
+{
+  "invoice_number": "RN-006893",
+  "supplier_name": "Hoffmann Software AG",
+  "supplier_tax_id": "DE914975327",
+  "invoice_date": "2025-08-25",
+  "due_date": "2025-09-24",
+  "currency": "EUR",
+  "subtotal": 2156.77,
+  "tax_amount": 409.79,
+  "total_amount": 2566.56,
+  "line_items": [
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 20.0,
+      "unit_price": 75.57,
+      "line_total": 1511.4
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 11.0,
+      "unit_price": 58.67,
+      "line_total": 645.37
+    }
+  ]
+}

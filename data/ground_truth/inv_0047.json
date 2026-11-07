@@ -1,0 +1,85 @@
+{
+  "invoice_number": "2025/1228",
+  "supplier_name": "Ashford Supplies PLC",
+  "supplier_tax_id": "GB232765446",
+  "invoice_date": "2025-10-26",
+  "due_date": "2025-12-25",
+  "currency": "GBP",
+  "subtotal": 17946.55,
+  "tax_amount": 3589.31,
+  "total_amount": 21535.86,
+  "line_items": [
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 5.0,
+      "unit_price": 7.18,
+      "line_total": 35.9
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 3.0,
+      "unit_price": 262.34,
+      "line_total": 787.02
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 2.0,
+      "unit_price": 386.64,
+      "line_total": 773.28
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 8.0,
+      "unit_price": 53.67,
+      "line_total": 429.36
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 7.5,
+      "unit_price": 120.68,
+      "line_total": 905.1
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 16.0,
+      "unit_price": 160.24,
+      "line_total": 2563.84
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 14.0,
+      "unit_price": 33.89,
+      "line_total": 474.46
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 13.0,
+      "unit_price": 221.13,
+      "line_total": 2874.69
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 10.0,
+      "unit_price": 493.45,
+      "line_total": 4934.5
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 7.0,
+      "unit_price": 4.5,
+      "line_total": 31.5
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 14.0,
+      "unit_price": 199.75,
+      "line_total": 2796.5
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 15.0,
+      "unit_price": 89.36,
+      "line_total": 1340.4
+    }
+  ]
+}

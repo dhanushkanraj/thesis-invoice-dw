@@ -1,0 +1,103 @@
+{
+  "invoice_number": "RN-003820",
+  "supplier_name": "Wagner Bürotechnik AG",
+  "supplier_tax_id": "DE869409758",
+  "invoice_date": "2025-03-13",
+  "due_date": "2025-04-27",
+  "currency": "EUR",
+  "subtotal": 14223.37,
+  "tax_amount": 2702.44,
+  "total_amount": 16925.81,
+  "line_items": [
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 18.0,
+      "unit_price": 113.31,
+      "line_total": 2039.58
+    },
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 8.0,
+      "unit_price": 114.03,
+      "line_total": 912.24
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 2.0,
+      "unit_price": 4.07,
+      "line_total": 8.14
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 7.0,
+      "unit_price": 61.86,
+      "line_total": 433.02
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 14.0,
+      "unit_price": 32.02,
+      "line_total": 448.28
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 6.0,
+      "unit_price": 261.08,
+      "line_total": 1566.48
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 18.0,
+      "unit_price": 341.08,
+      "line_total": 6139.44
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 4.0,
+      "unit_price": 171.84,
+      "line_total": 687.36
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 6.0,
+      "unit_price": 15.53,
+      "line_total": 93.18
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 1.0,
+      "unit_price": 278.19,
+      "line_total": 278.19
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 7.0,
+      "unit_price": 74.4,
+      "line_total": 520.8
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 10.0,
+      "unit_price": 3.76,
+      "line_total": 37.6
+    },
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 4.0,
+      "unit_price": 202.45,
+      "line_total": 809.8
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 7.0,
+      "unit_price": 4.83,
+      "line_total": 33.81
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 2.5,
+      "unit_price": 86.18,
+      "line_total": 215.45
+    }
+  ]
+}

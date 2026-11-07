@@ -1,0 +1,43 @@
+{
+  "invoice_number": "INV-2026-7849",
+  "supplier_name": "Evergreen Systems LLC",
+  "supplier_tax_id": "93-8942367",
+  "invoice_date": "2026-03-20",
+  "due_date": "2026-05-04",
+  "currency": "USD",
+  "subtotal": 2898.66,
+  "tax_amount": 202.91,
+  "total_amount": 3101.57,
+  "line_items": [
+    {
+      "description": "Ring binder A4",
+      "quantity": 2.0,
+      "unit_price": 3.37,
+      "line_total": 6.74
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 10.0,
+      "unit_price": 5.18,
+      "line_total": 51.8
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 12.0,
+      "unit_price": 127.42,
+      "line_total": 1529.04
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 8.0,
+      "unit_price": 7.3,
+      "line_total": 58.4
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 13.0,
+      "unit_price": 96.36,
+      "line_total": 1252.68
+    }
+  ]
+}

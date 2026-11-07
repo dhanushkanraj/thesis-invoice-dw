@@ -1,0 +1,43 @@
+{
+  "invoice_number": "R202600226",
+  "supplier_name": "Hoffmann Elektro GmbH & Co. KG",
+  "supplier_tax_id": "DE833423872",
+  "invoice_date": "2026-05-15",
+  "due_date": "2026-06-14",
+  "currency": "EUR",
+  "subtotal": 6129.63,
+  "tax_amount": 1164.63,
+  "total_amount": 7294.26,
+  "line_items": [
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 10.0,
+      "unit_price": 118.33,
+      "line_total": 1183.3
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 7.0,
+      "unit_price": 6.73,
+      "line_total": 47.11
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 13.0,
+      "unit_price": 64.63,
+      "line_total": 840.19
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 3.0,
+      "unit_price": 531.16,
+      "line_total": 1593.48
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 15.0,
+      "unit_price": 164.37,
+      "line_total": 2465.55
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "invoice_number": "#06115",
+  "supplier_name": "Ashford Logistics Ltd",
+  "supplier_tax_id": "GB992667654",
+  "invoice_date": "2025-06-02",
+  "due_date": "2025-07-02",
+  "currency": "GBP",
+  "subtotal": 1891.59,
+  "tax_amount": 378.32,
+  "total_amount": 2269.91,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 7.5,
+      "unit_price": 152.7,
+      "line_total": 1145.25
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 6.0,
+      "unit_price": 124.39,
+      "line_total": 746.34
+    }
+  ]
+}

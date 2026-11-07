@@ -1,0 +1,61 @@
+{
+  "invoice_number": "2025/8357",
+  "supplier_name": "Crestview Logistics Ltd",
+  "supplier_tax_id": "GB397877407",
+  "invoice_date": "2025-08-02",
+  "due_date": "2025-09-01",
+  "currency": "GBP",
+  "subtotal": 27085.69,
+  "tax_amount": 5417.14,
+  "total_amount": 32502.83,
+  "line_items": [
+    {
+      "description": "27-inch monitor",
+      "quantity": 20.0,
+      "unit_price": 218.53,
+      "line_total": 4370.6
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 18.0,
+      "unit_price": 566.71,
+      "line_total": 10200.78
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 9.0,
+      "unit_price": 29.17,
+      "line_total": 262.53
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 12.0,
+      "unit_price": 4.73,
+      "line_total": 56.76
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 20.0,
+      "unit_price": 531.45,
+      "line_total": 10629.0
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 17.0,
+      "unit_price": 57.98,
+      "line_total": 985.66
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 2.5,
+      "unit_price": 108.59,
+      "line_total": 271.48
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 4.0,
+      "unit_price": 77.22,
+      "line_total": 308.88
+    }
+  ]
+}

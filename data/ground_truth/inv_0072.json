@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV004483",
+  "supplier_name": "Bluepeak Industrial Ltd",
+  "supplier_tax_id": "GB266861105",
+  "invoice_date": "2026-04-05",
+  "due_date": "2026-06-04",
+  "currency": "GBP",
+  "subtotal": 8976.03,
+  "tax_amount": 1795.21,
+  "total_amount": 10771.24,
+  "line_items": [
+    {
+      "description": "Software license, annual",
+      "quantity": 18.0,
+      "unit_price": 158.78,
+      "line_total": 2858.04
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 13.0,
+      "unit_price": 415.77,
+      "line_total": 5405.01
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 9.0,
+      "unit_price": 79.22,
+      "line_total": 712.98
+    }
+  ]
+}

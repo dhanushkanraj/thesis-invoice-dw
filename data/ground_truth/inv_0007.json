@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV008499",
+  "supplier_name": "Crestview Systems LLC",
+  "supplier_tax_id": "55-7332423",
+  "invoice_date": "2026-03-21",
+  "due_date": "2026-05-20",
+  "currency": "USD",
+  "subtotal": 5492.95,
+  "tax_amount": 384.51,
+  "total_amount": 5877.46,
+  "line_items": [
+    {
+      "description": "Wireless keyboard",
+      "quantity": 10.0,
+      "unit_price": 63.39,
+      "line_total": 633.9
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 19.0,
+      "unit_price": 57.75,
+      "line_total": 1097.25
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 2.0,
+      "unit_price": 73.93,
+      "line_total": 147.86
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 12.0,
+      "unit_price": 39.0,
+      "line_total": 468.0
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 15.0,
+      "unit_price": 193.05,
+      "line_total": 2895.75
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 1.5,
+      "unit_price": 110.63,
+      "line_total": 165.95
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 13.0,
+      "unit_price": 6.48,
+      "line_total": 84.24
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_number": "RE-2025-8891",
+  "supplier_name": "Hoffmann Bürotechnik AG",
+  "supplier_tax_id": "DE419706317",
+  "invoice_date": "2025-01-04",
+  "due_date": "2025-03-05",
+  "currency": "EUR",
+  "subtotal": 10061.79,
+  "tax_amount": 1911.74,
+  "total_amount": 11973.53,
+  "line_items": [
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 13.0,
+      "unit_price": 76.48,
+      "line_total": 994.24
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 11.0,
+      "unit_price": 418.19,
+      "line_total": 4600.09
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 15.0,
+      "unit_price": 4.64,
+      "line_total": 69.6
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 9.0,
+      "unit_price": 30.35,
+      "line_total": 273.15
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 13.0,
+      "unit_price": 57.26,
+      "line_total": 744.38
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 12.0,
+      "unit_price": 224.97,
+      "line_total": 2699.64
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 6.0,
+      "unit_price": 53.39,
+      "line_total": 320.34
+    },
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 2.5,
+      "unit_price": 144.14,
+      "line_total": 360.35
+    }
+  ]
+}

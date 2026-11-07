@@ -1,0 +1,61 @@
+{
+  "invoice_number": "#00322",
+  "supplier_name": "Evergreen Logistics GmbH",
+  "supplier_tax_id": "NL489452846B80",
+  "invoice_date": "2025-02-04",
+  "due_date": "2025-04-05",
+  "currency": "EUR",
+  "subtotal": 8597.46,
+  "tax_amount": 1805.47,
+  "total_amount": 10402.93,
+  "line_items": [
+    {
+      "description": "USB-C docking station",
+      "quantity": 7.0,
+      "unit_price": 82.99,
+      "line_total": 580.93
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 1.0,
+      "unit_price": 239.63,
+      "line_total": 239.63
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 2.0,
+      "unit_price": 4.3,
+      "line_total": 8.6
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 20.0,
+      "unit_price": 8.12,
+      "line_total": 162.4
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 4.0,
+      "unit_price": 193.4,
+      "line_total": 773.6
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 15.0,
+      "unit_price": 367.49,
+      "line_total": 5512.35
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 10.0,
+      "unit_price": 48.4,
+      "line_total": 484.0
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 7.5,
+      "unit_price": 111.46,
+      "line_total": 835.95
+    }
+  ]
+}

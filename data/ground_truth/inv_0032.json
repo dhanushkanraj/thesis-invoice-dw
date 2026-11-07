@@ -1,0 +1,97 @@
+{
+  "invoice_number": "#00423",
+  "supplier_name": "Ashford Systems Corp.",
+  "supplier_tax_id": "57-1421733",
+  "invoice_date": "2025-05-18",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 18657.08,
+  "tax_amount": 1306.0,
+  "total_amount": 19963.08,
+  "line_items": [
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 7.0,
+      "unit_price": 5.18,
+      "line_total": 36.26
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 7.0,
+      "unit_price": 31.72,
+      "line_total": 222.04
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 4.0,
+      "unit_price": 59.09,
+      "line_total": 236.36
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 14.0,
+      "unit_price": 202.53,
+      "line_total": 2835.42
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 16.0,
+      "unit_price": 372.42,
+      "line_total": 5958.72
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 2.5,
+      "unit_price": 136.73,
+      "line_total": 341.83
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 18.0,
+      "unit_price": 10.93,
+      "line_total": 196.74
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 4.0,
+      "unit_price": 304.14,
+      "line_total": 1216.56
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 8.0,
+      "unit_price": 300.27,
+      "line_total": 2402.16
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 2.0,
+      "unit_price": 464.7,
+      "line_total": 929.4
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 12.0,
+      "unit_price": 164.9,
+      "line_total": 1978.8
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 3.0,
+      "unit_price": 3.41,
+      "line_total": 10.23
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 8.0,
+      "unit_price": 155.89,
+      "line_total": 1247.12
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 16.0,
+      "unit_price": 65.34,
+      "line_total": 1045.44
+    }
+  ]
+}

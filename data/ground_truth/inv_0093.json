@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV-2026-5067",
+  "supplier_name": "Summit Logistics LLC",
+  "supplier_tax_id": "98-1713111",
+  "invoice_date": "2026-01-26",
+  "due_date": "2026-02-09",
+  "currency": "USD",
+  "subtotal": 11126.08,
+  "tax_amount": 778.83,
+  "total_amount": 11904.91,
+  "line_items": [
+    {
+      "description": "LED desk lamp",
+      "quantity": 9.0,
+      "unit_price": 54.99,
+      "line_total": 494.91
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 4.0,
+      "unit_price": 53.62,
+      "line_total": 214.48
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 1.0,
+      "unit_price": 29.47,
+      "line_total": 29.47
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 16.0,
+      "unit_price": 193.93,
+      "line_total": 3102.88
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 10.0,
+      "unit_price": 579.03,
+      "line_total": 5790.3
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 8.0,
+      "unit_price": 71.49,
+      "line_total": 571.92
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 2.0,
+      "unit_price": 461.06,
+      "line_total": 922.12
+    }
+  ]
+}

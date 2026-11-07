@@ -1,0 +1,43 @@
+{
+  "invoice_number": "INV007448",
+  "supplier_name": "Crestview Logistics PLC",
+  "supplier_tax_id": "GB942645541",
+  "invoice_date": "2025-01-24",
+  "due_date": null,
+  "currency": "GBP",
+  "subtotal": 9900.97,
+  "tax_amount": 1980.19,
+  "total_amount": 11881.16,
+  "line_items": [
+    {
+      "description": "Software license, annual",
+      "quantity": 4.0,
+      "unit_price": 166.32,
+      "line_total": 665.28
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 19.0,
+      "unit_price": 27.59,
+      "line_total": 524.21
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 17.0,
+      "unit_price": 414.46,
+      "line_total": 7045.82
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 18.0,
+      "unit_price": 72.82,
+      "line_total": 1310.76
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 6.0,
+      "unit_price": 59.15,
+      "line_total": 354.9
+    }
+  ]
+}

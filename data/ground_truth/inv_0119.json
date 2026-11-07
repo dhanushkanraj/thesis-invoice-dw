@@ -1,0 +1,25 @@
+{
+  "invoice_number": "INV007174",
+  "supplier_name": "Ashford Technologies Ltd",
+  "supplier_tax_id": "GB361086105",
+  "invoice_date": "2025-12-21",
+  "due_date": "2026-01-20",
+  "currency": "GBP",
+  "subtotal": null,
+  "tax_amount": 270.34,
+  "total_amount": 1622.04,
+  "line_items": [
+    {
+      "description": "Wireless keyboard",
+      "quantity": 18.0,
+      "unit_price": 74.85,
+      "line_total": 1347.3
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 1.0,
+      "unit_price": 4.4,
+      "line_total": 4.4
+    }
+  ]
+}

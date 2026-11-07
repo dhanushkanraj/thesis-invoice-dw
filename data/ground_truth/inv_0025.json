@@ -1,0 +1,31 @@
+{
+  "invoice_number": "RE-2026-3564",
+  "supplier_name": "Fischer Bürotechnik e.K.",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-04-03",
+  "due_date": "2026-05-03",
+  "currency": "EUR",
+  "subtotal": 1420.08,
+  "tax_amount": 269.82,
+  "total_amount": 1689.9,
+  "line_items": [
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 5.0,
+      "unit_price": 32.21,
+      "line_total": 161.05
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 11.0,
+      "unit_price": 113.76,
+      "line_total": 1251.36
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 1.0,
+      "unit_price": 7.67,
+      "line_total": 7.67
+    }
+  ]
+}

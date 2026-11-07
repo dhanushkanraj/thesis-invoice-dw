@@ -1,0 +1,37 @@
+{
+  "invoice_number": "INV-2025-5316",
+  "supplier_name": "Evergreen Logistics Ltd",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-11-30",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 3356.76,
+  "tax_amount": 0.0,
+  "total_amount": 3356.76,
+  "line_items": [
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 20.0,
+      "unit_price": 9.97,
+      "line_total": 199.4
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 4.0,
+      "unit_price": 115.75,
+      "line_total": 463.0
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 8.0,
+      "unit_price": 335.03,
+      "line_total": 2680.24
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 2.0,
+      "unit_price": 7.06,
+      "line_total": 14.12
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "invoice_number": "RE-2025-6046",
+  "supplier_name": "Schneider Bürotechnik e.K.",
+  "supplier_tax_id": "DE032089273",
+  "invoice_date": "2025-08-06",
+  "due_date": "2025-09-20",
+  "currency": "EUR",
+  "subtotal": null,
+  "tax_amount": 807.09,
+  "total_amount": 12336.91,
+  "line_items": [
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 3.0,
+      "unit_price": 207.97,
+      "line_total": 623.91
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 6.0,
+      "unit_price": 230.01,
+      "line_total": 1380.06
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 20.0,
+      "unit_price": 3.08,
+      "line_total": 61.6
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 5.0,
+      "unit_price": 8.18,
+      "line_total": 40.9
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 2.0,
+      "unit_price": 130.21,
+      "line_total": 260.42
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 13.0,
+      "unit_price": 236.05,
+      "line_total": 3068.65
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 16.0,
+      "unit_price": 19.29,
+      "line_total": 308.64
+    },
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 19.0,
+      "unit_price": 206.11,
+      "line_total": 3916.09
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 14.0,
+      "unit_price": 47.75,
+      "line_total": 668.5
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 15.0,
+      "unit_price": 80.07,
+      "line_total": 1201.05
+    }
+  ]
+}

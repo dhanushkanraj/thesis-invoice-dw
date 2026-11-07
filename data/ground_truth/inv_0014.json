@@ -1,0 +1,73 @@
+{
+  "invoice_number": "RN-004724",
+  "supplier_name": "Koch Maschinenbau AG",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-01-07",
+  "due_date": "2025-01-21",
+  "currency": "EUR",
+  "subtotal": 14514.47,
+  "tax_amount": 2757.75,
+  "total_amount": 17272.22,
+  "line_items": [
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 13.0,
+      "unit_price": 215.98,
+      "line_total": 2807.74
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 18.0,
+      "unit_price": 6.11,
+      "line_total": 109.98
+    },
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 1.0,
+      "unit_price": 92.2,
+      "line_total": 92.2
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 4.0,
+      "unit_price": 136.66,
+      "line_total": 546.64
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 19.0,
+      "unit_price": 60.81,
+      "line_total": 1155.39
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 13.0,
+      "unit_price": 178.92,
+      "line_total": 2325.96
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 10.0,
+      "unit_price": 49.89,
+      "line_total": 498.9
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 2.0,
+      "unit_price": 18.67,
+      "line_total": 37.34
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 19.0,
+      "unit_price": 362.88,
+      "line_total": 6894.72
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 12.0,
+      "unit_price": 3.8,
+      "line_total": 45.6
+    }
+  ]
+}

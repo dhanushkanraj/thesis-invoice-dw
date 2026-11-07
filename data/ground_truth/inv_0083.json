@@ -1,0 +1,43 @@
+{
+  "invoice_number": "INV-2025-6566",
+  "supplier_name": "Crestview Logistics Ltd",
+  "supplier_tax_id": "GB623897769",
+  "invoice_date": "2025-12-14",
+  "due_date": "2025-12-28",
+  "currency": "GBP",
+  "subtotal": 848.53,
+  "tax_amount": 169.71,
+  "total_amount": 1018.24,
+  "line_items": [
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 1.0,
+      "unit_price": 4.35,
+      "line_total": 4.35
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 13.0,
+      "unit_price": 25.61,
+      "line_total": 332.93
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 2.0,
+      "unit_price": 153.8,
+      "line_total": 307.6
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 6.0,
+      "unit_price": 29.94,
+      "line_total": 179.64
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 7.0,
+      "unit_price": 3.43,
+      "line_total": 24.01
+    }
+  ]
+}

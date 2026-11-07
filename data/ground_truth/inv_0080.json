@@ -1,0 +1,91 @@
+{
+  "invoice_number": "INV002985",
+  "supplier_name": "Summit Industrial Corp.",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-05-16",
+  "due_date": "2026-06-30",
+  "currency": "USD",
+  "subtotal": 13380.68,
+  "tax_amount": 0.0,
+  "total_amount": 13380.68,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 8.0,
+      "unit_price": 151.83,
+      "line_total": 1214.64
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 13.0,
+      "unit_price": 2.05,
+      "line_total": 26.65
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 5.0,
+      "unit_price": 400.99,
+      "line_total": 2004.95
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 1.0,
+      "unit_price": 27.55,
+      "line_total": 27.55
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 1.0,
+      "unit_price": 171.56,
+      "line_total": 171.56
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 11.0,
+      "unit_price": 46.46,
+      "line_total": 511.06
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 11.0,
+      "unit_price": 34.21,
+      "line_total": 376.31
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 13.0,
+      "unit_price": 18.07,
+      "line_total": 234.91
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 13.0,
+      "unit_price": 92.26,
+      "line_total": 1199.38
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 7.5,
+      "unit_price": 110.9,
+      "line_total": 831.75
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 5.0,
+      "unit_price": 174.54,
+      "line_total": 872.7
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 19.0,
+      "unit_price": 297.64,
+      "line_total": 5655.16
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 1.0,
+      "unit_price": 254.06,
+      "line_total": 254.06
+    }
+  ]
+}

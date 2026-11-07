@@ -1,0 +1,25 @@
+{
+  "invoice_number": "#08562",
+  "supplier_name": "Bluepeak Systems Ltd",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-03-11",
+  "due_date": "2025-05-10",
+  "currency": "GBP",
+  "subtotal": 213.81,
+  "tax_amount": 42.76,
+  "total_amount": 256.57,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.5,
+      "unit_price": 101.84,
+      "line_total": 152.76
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 15.0,
+      "unit_price": 4.07,
+      "line_total": 61.05
+    }
+  ]
+}

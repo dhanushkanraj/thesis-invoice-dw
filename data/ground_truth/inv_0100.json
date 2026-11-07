@@ -1,0 +1,61 @@
+{
+  "invoice_number": "2025/5956",
+  "supplier_name": "Evergreen Logistics Ltd",
+  "supplier_tax_id": "FR59696456813",
+  "invoice_date": "2025-02-18",
+  "due_date": "2025-03-20",
+  "currency": "EUR",
+  "subtotal": 19486.46,
+  "tax_amount": 1753.78,
+  "total_amount": 21240.24,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.5,
+      "unit_price": 112.89,
+      "line_total": 169.34
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 7.0,
+      "unit_price": 71.45,
+      "line_total": 500.15
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 16.0,
+      "unit_price": 192.91,
+      "line_total": 3086.56
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 8.0,
+      "unit_price": 67.58,
+      "line_total": 540.64
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 1.0,
+      "unit_price": 98.71,
+      "line_total": 98.71
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 15.0,
+      "unit_price": 544.49,
+      "line_total": 8167.35
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 16.0,
+      "unit_price": 261.34,
+      "line_total": 4181.44
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 17.0,
+      "unit_price": 161.31,
+      "line_total": 2742.27
+    }
+  ]
+}

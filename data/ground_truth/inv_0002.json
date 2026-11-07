@@ -1,0 +1,85 @@
+{
+  "invoice_number": "RN-006972",
+  "supplier_name": "Koch IT-Service e.K.",
+  "supplier_tax_id": "DE963845434",
+  "invoice_date": "2025-10-04",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": null,
+  "tax_amount": 1271.23,
+  "total_amount": 19431.68,
+  "line_items": [
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 3.0,
+      "unit_price": 186.26,
+      "line_total": 558.78
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 7.0,
+      "unit_price": 75.55,
+      "line_total": 528.85
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 20.0,
+      "unit_price": 395.06,
+      "line_total": 7901.2
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 20.0,
+      "unit_price": 2.84,
+      "line_total": 56.8
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 18.0,
+      "unit_price": 20.86,
+      "line_total": 375.48
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 9.0,
+      "unit_price": 181.09,
+      "line_total": 1629.81
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 7.0,
+      "unit_price": 383.18,
+      "line_total": 2682.26
+    },
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 12.0,
+      "unit_price": 195.34,
+      "line_total": 2344.08
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 12.0,
+      "unit_price": 108.28,
+      "line_total": 1299.36
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 1.5,
+      "unit_price": 121.47,
+      "line_total": 182.21
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 12.0,
+      "unit_price": 42.21,
+      "line_total": 506.52
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 15.0,
+      "unit_price": 6.34,
+      "line_total": 95.1
+    }
+  ]
+}

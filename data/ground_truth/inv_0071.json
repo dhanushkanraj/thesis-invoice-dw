@@ -1,0 +1,67 @@
+{
+  "invoice_number": "INV001186",
+  "supplier_name": "Ironwood Logistics PLC",
+  "supplier_tax_id": "GB574089934",
+  "invoice_date": "2025-04-19",
+  "due_date": "2025-05-03",
+  "currency": "GBP",
+  "subtotal": null,
+  "tax_amount": 0.0,
+  "total_amount": 12529.11,
+  "line_items": [
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 4.0,
+      "unit_price": 60.53,
+      "line_total": 242.12
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 20.0,
+      "unit_price": 57.89,
+      "line_total": 1157.8
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 5.0,
+      "unit_price": 7.77,
+      "line_total": 38.85
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 2.0,
+      "unit_price": 120.08,
+      "line_total": 240.16
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 17.0,
+      "unit_price": 124.96,
+      "line_total": 2124.32
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 18.0,
+      "unit_price": 353.93,
+      "line_total": 6370.74
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.0,
+      "unit_price": 86.06,
+      "line_total": 86.06
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 4.0,
+      "unit_price": 565.02,
+      "line_total": 2260.08
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 2.0,
+      "unit_price": 4.49,
+      "line_total": 8.98
+    }
+  ]
+}

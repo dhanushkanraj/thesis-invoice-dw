@@ -1,0 +1,37 @@
+{
+  "invoice_number": "INV003146",
+  "supplier_name": "Harbor Technologies Inc.",
+  "supplier_tax_id": "55-2570669",
+  "invoice_date": "2026-06-25",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 12395.93,
+  "tax_amount": 0.0,
+  "total_amount": 12395.93,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 2.0,
+      "unit_price": 99.2,
+      "line_total": 198.4
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 12.0,
+      "unit_price": 237.35,
+      "line_total": 2848.2
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 4.0,
+      "unit_price": 8.63,
+      "line_total": 34.52
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 17.0,
+      "unit_price": 547.93,
+      "line_total": 9314.81
+    }
+  ]
+}

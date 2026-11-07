@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV-2025-4591",
+  "supplier_name": "Evergreen Systems Ltd",
+  "supplier_tax_id": "GB427469111",
+  "invoice_date": "2025-08-17",
+  "due_date": "2025-09-16",
+  "currency": "GBP",
+  "subtotal": 18594.93,
+  "tax_amount": 3718.99,
+  "total_amount": 22313.92,
+  "line_items": [
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 18.0,
+      "unit_price": 593.25,
+      "line_total": 10678.5
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 13.0,
+      "unit_price": 404.27,
+      "line_total": 5255.51
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.0,
+      "unit_price": 141.41,
+      "line_total": 141.41
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 12.0,
+      "unit_price": 3.42,
+      "line_total": 41.04
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 9.0,
+      "unit_price": 20.29,
+      "line_total": 182.61
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 16.0,
+      "unit_price": 96.86,
+      "line_total": 1549.76
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 9.0,
+      "unit_price": 82.9,
+      "line_total": 746.1
+    }
+  ]
+}

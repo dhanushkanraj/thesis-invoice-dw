@@ -1,0 +1,49 @@
+{
+  "invoice_number": "R202501376",
+  "supplier_name": "Becker Logistik AG",
+  "supplier_tax_id": "DE201807399",
+  "invoice_date": "2025-05-29",
+  "due_date": "2025-06-12",
+  "currency": "EUR",
+  "subtotal": 7919.89,
+  "tax_amount": 1504.78,
+  "total_amount": 9424.67,
+  "line_items": [
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 15.0,
+      "unit_price": 6.27,
+      "line_total": 94.05
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 9.0,
+      "unit_price": 472.39,
+      "line_total": 4251.51
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 9.0,
+      "unit_price": 268.88,
+      "line_total": 2419.92
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 18.0,
+      "unit_price": 10.08,
+      "line_total": 181.44
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 2.0,
+      "unit_price": 295.77,
+      "line_total": 591.54
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 7.0,
+      "unit_price": 54.49,
+      "line_total": 381.43
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "invoice_number": "#02378",
+  "supplier_name": "Bluepeak Consulting Ltd",
+  "supplier_tax_id": "NL556757614B82",
+  "invoice_date": "2025-12-24",
+  "due_date": "2026-01-23",
+  "currency": "EUR",
+  "subtotal": 9038.17,
+  "tax_amount": 2078.78,
+  "total_amount": 11116.95,
+  "line_items": [
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 4.0,
+      "unit_price": 530.84,
+      "line_total": 2123.36
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 13.0,
+      "unit_price": 69.22,
+      "line_total": 899.86
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 4.0,
+      "unit_price": 91.26,
+      "line_total": 365.04
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 13.0,
+      "unit_price": 4.87,
+      "line_total": 63.31
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 5.0,
+      "unit_price": 49.2,
+      "line_total": 246.0
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 18.0,
+      "unit_price": 224.18,
+      "line_total": 4035.24
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 7.0,
+      "unit_price": 186.48,
+      "line_total": 1305.36
+    }
+  ]
+}

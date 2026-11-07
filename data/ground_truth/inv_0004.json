@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV001315",
+  "supplier_name": "Ashford Wholesale GmbH",
+  "supplier_tax_id": "NL136504676B56",
+  "invoice_date": "2026-02-13",
+  "due_date": "2026-03-15",
+  "currency": "EUR",
+  "subtotal": 771.6,
+  "tax_amount": 162.04,
+  "total_amount": 933.64,
+  "line_items": [
+    {
+      "description": "Delivery and installation",
+      "quantity": 1.0,
+      "unit_price": 67.82,
+      "line_total": 67.82
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 7.5,
+      "unit_price": 85.41,
+      "line_total": 640.58
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 10.0,
+      "unit_price": 6.32,
+      "line_total": 63.2
+    }
+  ]
+}

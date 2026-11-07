@@ -1,0 +1,19 @@
+{
+  "invoice_number": "INV005670",
+  "supplier_name": "Summit Consulting GmbH",
+  "supplier_tax_id": "FR89465844573",
+  "invoice_date": "2025-08-24",
+  "due_date": "2025-09-07",
+  "currency": "EUR",
+  "subtotal": 732.4,
+  "tax_amount": 153.8,
+  "total_amount": 886.2,
+  "line_items": [
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 8.0,
+      "unit_price": 91.55,
+      "line_total": 732.4
+    }
+  ]
+}

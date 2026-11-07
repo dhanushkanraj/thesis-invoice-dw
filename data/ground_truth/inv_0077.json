@@ -1,0 +1,49 @@
+{
+  "invoice_number": "INV-2026-3576",
+  "supplier_name": "Harbor Supplies GmbH",
+  "supplier_tax_id": "FR03096524433",
+  "invoice_date": "2026-02-04",
+  "due_date": "2026-03-21",
+  "currency": "EUR",
+  "subtotal": 4672.16,
+  "tax_amount": 981.15,
+  "total_amount": 5653.31,
+  "line_items": [
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 19.0,
+      "unit_price": 18.05,
+      "line_total": 342.95
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 13.0,
+      "unit_price": 114.0,
+      "line_total": 1482.0
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 6.0,
+      "unit_price": 6.68,
+      "line_total": 40.08
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 16.0,
+      "unit_price": 147.77,
+      "line_total": 2364.32
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 3.0,
+      "unit_price": 27.82,
+      "line_total": 83.46
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 5.0,
+      "unit_price": 71.87,
+      "line_total": 359.35
+    }
+  ]
+}

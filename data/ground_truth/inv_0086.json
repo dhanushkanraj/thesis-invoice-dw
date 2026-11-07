@@ -1,0 +1,55 @@
+{
+  "invoice_number": "RN-000137",
+  "supplier_name": "Weber Logistik e.K.",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-09-22",
+  "due_date": "2025-11-06",
+  "currency": "EUR",
+  "subtotal": 11934.85,
+  "tax_amount": 835.44,
+  "total_amount": 12770.29,
+  "line_items": [
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 19.0,
+      "unit_price": 172.47,
+      "line_total": 3276.93
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 7.0,
+      "unit_price": 7.81,
+      "line_total": 54.67
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 7.0,
+      "unit_price": 107.83,
+      "line_total": 754.81
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 18.0,
+      "unit_price": 7.33,
+      "line_total": 131.94
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 5.0,
+      "unit_price": 48.13,
+      "line_total": 240.65
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 15.0,
+      "unit_price": 450.32,
+      "line_total": 6754.8
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 19.0,
+      "unit_price": 37.95,
+      "line_total": 721.05
+    }
+  ]
+}

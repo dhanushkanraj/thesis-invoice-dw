@@ -1,0 +1,19 @@
+{
+  "invoice_number": "INV-2025-6877",
+  "supplier_name": "Crestview Systems B.V.",
+  "supplier_tax_id": "NL623360767B12",
+  "invoice_date": "2025-03-20",
+  "due_date": "2025-04-19",
+  "currency": "EUR",
+  "subtotal": 26.1,
+  "tax_amount": 5.48,
+  "total_amount": 31.58,
+  "line_items": [
+    {
+      "description": "Ring binder A4",
+      "quantity": 6.0,
+      "unit_price": 4.35,
+      "line_total": 26.1
+    }
+  ]
+}

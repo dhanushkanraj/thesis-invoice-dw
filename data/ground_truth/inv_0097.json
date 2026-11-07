@@ -1,0 +1,31 @@
+{
+  "invoice_number": "RE-2026-9622",
+  "supplier_name": "Schneider Bürotechnik AG",
+  "supplier_tax_id": "DE170827070",
+  "invoice_date": "2026-04-06",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 1389.21,
+  "tax_amount": 0.0,
+  "total_amount": 1389.21,
+  "line_items": [
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 5.0,
+      "unit_price": 155.73,
+      "line_total": 778.65
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 2.5,
+      "unit_price": 98.47,
+      "line_total": 246.18
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 1.0,
+      "unit_price": 364.38,
+      "line_total": 364.38
+    }
+  ]
+}

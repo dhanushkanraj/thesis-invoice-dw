@@ -1,0 +1,55 @@
+{
+  "invoice_number": "2025/6728",
+  "supplier_name": "Koch Logistik GmbH & Co. KG",
+  "supplier_tax_id": "DE464615005",
+  "invoice_date": "2025-02-18",
+  "due_date": "2025-03-20",
+  "currency": "EUR",
+  "subtotal": 12752.26,
+  "tax_amount": 2422.93,
+  "total_amount": 15175.19,
+  "line_items": [
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 1.5,
+      "unit_price": 156.53,
+      "line_total": 234.8
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 4.0,
+      "unit_price": 3.81,
+      "line_total": 15.24
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 1.0,
+      "unit_price": 122.65,
+      "line_total": 122.65
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 17.0,
+      "unit_price": 588.41,
+      "line_total": 10002.97
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 20.0,
+      "unit_price": 98.97,
+      "line_total": 1979.4
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 14.0,
+      "unit_price": 7.04,
+      "line_total": 98.56
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 4.0,
+      "unit_price": 74.66,
+      "line_total": 298.64
+    }
+  ]
+}

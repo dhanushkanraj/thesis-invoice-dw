@@ -1,0 +1,61 @@
+{
+  "invoice_number": "INV-2025-4052",
+  "supplier_name": "Crestview Logistics GmbH",
+  "supplier_tax_id": "NL554009128B79",
+  "invoice_date": "2025-12-01",
+  "due_date": "2026-01-30",
+  "currency": "EUR",
+  "subtotal": 4555.75,
+  "tax_amount": 956.71,
+  "total_amount": 5512.46,
+  "line_items": [
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 17.0,
+      "unit_price": 109.73,
+      "line_total": 1865.41
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 2.0,
+      "unit_price": 206.73,
+      "line_total": 413.46
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 3.0,
+      "unit_price": 7.27,
+      "line_total": 21.81
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 16.0,
+      "unit_price": 82.01,
+      "line_total": 1312.16
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 19.0,
+      "unit_price": 8.05,
+      "line_total": 152.95
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 4.0,
+      "unit_price": 122.52,
+      "line_total": 490.08
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 6.0,
+      "unit_price": 40.02,
+      "line_total": 240.12
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 12.0,
+      "unit_price": 4.98,
+      "line_total": 59.76
+    }
+  ]
+}

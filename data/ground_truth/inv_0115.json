@@ -1,0 +1,49 @@
+{
+  "invoice_number": "#05827",
+  "supplier_name": "Crestview Wholesale LLC",
+  "supplier_tax_id": "52-2468137",
+  "invoice_date": "2025-02-28",
+  "due_date": "2025-03-30",
+  "currency": "USD",
+  "subtotal": 1956.71,
+  "tax_amount": 0.0,
+  "total_amount": 1956.71,
+  "line_items": [
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 10.0,
+      "unit_price": 94.5,
+      "line_total": 945.0
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 3.0,
+      "unit_price": 70.48,
+      "line_total": 211.44
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 3.0,
+      "unit_price": 5.8,
+      "line_total": 17.4
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 7.0,
+      "unit_price": 4.31,
+      "line_total": 30.17
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 3.0,
+      "unit_price": 225.38,
+      "line_total": 676.14
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 3.0,
+      "unit_price": 25.52,
+      "line_total": 76.56
+    }
+  ]
+}

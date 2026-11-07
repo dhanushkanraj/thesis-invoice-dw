@@ -1,0 +1,43 @@
+{
+  "invoice_number": "RE-2025-1254",
+  "supplier_name": "Becker Maschinenbau AG",
+  "supplier_tax_id": "DE451543180",
+  "invoice_date": "2025-08-30",
+  "due_date": "2025-10-14",
+  "currency": "EUR",
+  "subtotal": 15276.35,
+  "tax_amount": 2902.51,
+  "total_amount": 18178.86,
+  "line_items": [
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 11.0,
+      "unit_price": 550.48,
+      "line_total": 6055.28
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 16.0,
+      "unit_price": 265.98,
+      "line_total": 4255.68
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 9.0,
+      "unit_price": 276.67,
+      "line_total": 2490.03
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 4.0,
+      "unit_price": 22.2,
+      "line_total": 88.8
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 16.0,
+      "unit_price": 149.16,
+      "line_total": 2386.56
+    }
+  ]
+}

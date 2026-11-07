@@ -1,0 +1,103 @@
+{
+  "invoice_number": "INV-2025-8584",
+  "supplier_name": "Evergreen Technologies B.V.",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-04-12",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 14869.55,
+  "tax_amount": 3122.61,
+  "total_amount": 17992.16,
+  "line_items": [
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 1.0,
+      "unit_price": 4.27,
+      "line_total": 4.27
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 11.0,
+      "unit_price": 278.33,
+      "line_total": 3061.63
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 16.0,
+      "unit_price": 374.86,
+      "line_total": 5997.76
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 5.0,
+      "unit_price": 212.0,
+      "line_total": 1060.0
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 7.5,
+      "unit_price": 132.57,
+      "line_total": 994.28
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 2.0,
+      "unit_price": 261.28,
+      "line_total": 522.56
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 14.0,
+      "unit_price": 61.31,
+      "line_total": 858.34
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 4.0,
+      "unit_price": 33.05,
+      "line_total": 132.2
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 4.0,
+      "unit_price": 159.84,
+      "line_total": 639.36
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 4.0,
+      "unit_price": 45.54,
+      "line_total": 182.16
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 10.0,
+      "unit_price": 109.72,
+      "line_total": 1097.2
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 11.0,
+      "unit_price": 5.67,
+      "line_total": 62.37
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 8.0,
+      "unit_price": 3.08,
+      "line_total": 24.64
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 3.0,
+      "unit_price": 40.28,
+      "line_total": 120.84
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.0,
+      "unit_price": 111.94,
+      "line_total": 111.94
+    }
+  ]
+}

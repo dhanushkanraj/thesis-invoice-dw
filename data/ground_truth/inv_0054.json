@@ -1,0 +1,79 @@
+{
+  "invoice_number": "2026/7590",
+  "supplier_name": "Summit Systems Ltd",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-03-26",
+  "due_date": "2026-05-25",
+  "currency": "EUR",
+  "subtotal": 18957.09,
+  "tax_amount": 1706.14,
+  "total_amount": 20663.23,
+  "line_items": [
+    {
+      "description": "LED desk lamp",
+      "quantity": 17.0,
+      "unit_price": 33.45,
+      "line_total": 568.65
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 1.5,
+      "unit_price": 115.03,
+      "line_total": 172.55
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 16.0,
+      "unit_price": 363.42,
+      "line_total": 5814.72
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 15.0,
+      "unit_price": 213.86,
+      "line_total": 3207.9
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 15.0,
+      "unit_price": 177.71,
+      "line_total": 2665.65
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 4.0,
+      "unit_price": 27.33,
+      "line_total": 109.32
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 6.0,
+      "unit_price": 76.77,
+      "line_total": 460.62
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 10.0,
+      "unit_price": 7.56,
+      "line_total": 75.6
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 19.0,
+      "unit_price": 7.93,
+      "line_total": 150.67
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 9.0,
+      "unit_price": 510.85,
+      "line_total": 4597.65
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 8.0,
+      "unit_price": 141.72,
+      "line_total": 1133.76
+    }
+  ]
+}

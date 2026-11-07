@@ -1,0 +1,19 @@
+{
+  "invoice_number": "R202604344",
+  "supplier_name": "Weber Software GmbH & Co. KG",
+  "supplier_tax_id": "DE997500454",
+  "invoice_date": "2026-06-13",
+  "due_date": "2026-07-13",
+  "currency": "EUR",
+  "subtotal": 4330.15,
+  "tax_amount": 822.73,
+  "total_amount": 5152.88,
+  "line_items": [
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 11.0,
+      "unit_price": 393.65,
+      "line_total": 4330.15
+    }
+  ]
+}

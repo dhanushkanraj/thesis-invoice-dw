@@ -1,0 +1,37 @@
+{
+  "invoice_number": "2026/9093",
+  "supplier_name": "Harbor Consulting Ltd",
+  "supplier_tax_id": null,
+  "invoice_date": "2026-01-27",
+  "due_date": "2026-02-10",
+  "currency": "GBP",
+  "subtotal": 4852.12,
+  "tax_amount": 970.42,
+  "total_amount": 5822.54,
+  "line_items": [
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 9.0,
+      "unit_price": 7.34,
+      "line_total": 66.06
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 8.0,
+      "unit_price": 5.22,
+      "line_total": 41.76
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 10.0,
+      "unit_price": 130.52,
+      "line_total": 1305.2
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 14.0,
+      "unit_price": 245.65,
+      "line_total": 3439.1
+    }
+  ]
+}

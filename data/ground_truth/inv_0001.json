@@ -1,0 +1,43 @@
+{
+  "invoice_number": "RE-2025-2947",
+  "supplier_name": "Müller Elektro e.K.",
+  "supplier_tax_id": "DE214263669",
+  "invoice_date": "2025-02-02",
+  "due_date": "2025-03-04",
+  "currency": "EUR",
+  "subtotal": 3260.69,
+  "tax_amount": 619.53,
+  "total_amount": 3880.22,
+  "line_items": [
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 5.0,
+      "unit_price": 37.01,
+      "line_total": 185.05
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 2.0,
+      "unit_price": 117.9,
+      "line_total": 235.8
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 5.0,
+      "unit_price": 7.56,
+      "line_total": 37.8
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 17.0,
+      "unit_price": 109.88,
+      "line_total": 1867.96
+    },
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 8.0,
+      "unit_price": 116.76,
+      "line_total": 934.08
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "invoice_number": "INV-2025-4632",
+  "supplier_name": "Harbor Technologies Corp.",
+  "supplier_tax_id": "77-0740310",
+  "invoice_date": "2025-06-16",
+  "due_date": "2025-06-30",
+  "currency": "USD",
+  "subtotal": 14141.81,
+  "tax_amount": 0.0,
+  "total_amount": 14141.81,
+  "line_items": [
+    {
+      "description": "27-inch monitor",
+      "quantity": 13.0,
+      "unit_price": 204.95,
+      "line_total": 2664.35
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 8.0,
+      "unit_price": 145.43,
+      "line_total": 1163.44
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 7.0,
+      "unit_price": 3.34,
+      "line_total": 23.38
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 17.0,
+      "unit_price": 65.47,
+      "line_total": 1112.99
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 10.0,
+      "unit_price": 260.53,
+      "line_total": 2605.3
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 17.0,
+      "unit_price": 6.51,
+      "line_total": 110.67
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 1.0,
+      "unit_price": 253.63,
+      "line_total": 253.63
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 2.0,
+      "unit_price": 102.69,
+      "line_total": 205.38
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 8.0,
+      "unit_price": 280.29,
+      "line_total": 2242.32
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 2.5,
+      "unit_price": 108.18,
+      "line_total": 270.45
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 16.0,
+      "unit_price": 60.92,
+      "line_total": 974.72
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 19.0,
+      "unit_price": 6.45,
+      "line_total": 122.55
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 13.0,
+      "unit_price": 66.55,
+      "line_total": 865.15
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 12.0,
+      "unit_price": 127.29,
+      "line_total": 1527.48
+    }
+  ]
+}

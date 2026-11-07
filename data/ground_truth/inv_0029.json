@@ -1,0 +1,19 @@
+{
+  "invoice_number": "INV008600",
+  "supplier_name": "Harbor Logistics Ltd",
+  "supplier_tax_id": "NL515039466B94",
+  "invoice_date": "2025-02-11",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 3087.04,
+  "tax_amount": 0.0,
+  "total_amount": 3087.04,
+  "line_items": [
+    {
+      "description": "USB-C docking station",
+      "quantity": 16.0,
+      "unit_price": 192.94,
+      "line_total": 3087.04
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_number": "INV-2025-1752",
+  "supplier_name": "Crestview Wholesale Inc.",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-02-17",
+  "due_date": "2025-04-03",
+  "currency": "USD",
+  "subtotal": 9021.06,
+  "tax_amount": 631.47,
+  "total_amount": 9652.53,
+  "line_items": [
+    {
+      "description": "27-inch monitor",
+      "quantity": 16.0,
+      "unit_price": 327.65,
+      "line_total": 5242.4
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 2.0,
+      "unit_price": 29.48,
+      "line_total": 58.96
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 9.0,
+      "unit_price": 226.49,
+      "line_total": 2038.41
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 6.0,
+      "unit_price": 114.23,
+      "line_total": 685.38
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 2.0,
+      "unit_price": 151.93,
+      "line_total": 303.86
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 4.0,
+      "unit_price": 67.46,
+      "line_total": 269.84
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 2.0,
+      "unit_price": 127.98,
+      "line_total": 255.96
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 19.0,
+      "unit_price": 8.75,
+      "line_total": 166.25
+    }
+  ]
+}

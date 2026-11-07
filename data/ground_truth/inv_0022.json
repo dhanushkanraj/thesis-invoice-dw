@@ -1,0 +1,61 @@
+{
+  "invoice_number": "INV004673",
+  "supplier_name": "Ashford Wholesale Ltd",
+  "supplier_tax_id": "GB010778208",
+  "invoice_date": "2026-05-27",
+  "due_date": "2026-07-11",
+  "currency": "GBP",
+  "subtotal": null,
+  "tax_amount": 2507.09,
+  "total_amount": 15042.56,
+  "line_items": [
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 16.0,
+      "unit_price": 27.97,
+      "line_total": 447.52
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 15.0,
+      "unit_price": 371.84,
+      "line_total": 5577.6
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 1.0,
+      "unit_price": 337.53,
+      "line_total": 337.53
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 17.0,
+      "unit_price": 58.5,
+      "line_total": 994.5
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 15.0,
+      "unit_price": 89.41,
+      "line_total": 1341.15
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 16.0,
+      "unit_price": 179.85,
+      "line_total": 2877.6
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 19.0,
+      "unit_price": 6.13,
+      "line_total": 116.47
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 10.0,
+      "unit_price": 84.31,
+      "line_total": 843.1
+    }
+  ]
+}

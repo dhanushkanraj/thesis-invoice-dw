@@ -1,0 +1,19 @@
+{
+  "invoice_number": "#09476",
+  "supplier_name": "Harbor Systems Ltd",
+  "supplier_tax_id": "FR50544854994",
+  "invoice_date": "2026-06-09",
+  "due_date": "2026-07-09",
+  "currency": "EUR",
+  "subtotal": 4116.21,
+  "tax_amount": 864.4,
+  "total_amount": 4980.61,
+  "line_items": [
+    {
+      "description": "Software license, annual",
+      "quantity": 17.0,
+      "unit_price": 242.13,
+      "line_total": 4116.21
+    }
+  ]
+}
