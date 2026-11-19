@@ -4,8 +4,8 @@ Usage:  python scripts/build_scans.py [seed]
 Needs:  python scripts/build_dataset.py has been run first.
 """
 import csv
-import json
 import os
+import random
 import sys
 from collections import Counter
 from pathlib import Path
@@ -15,7 +15,7 @@ import pytesseract
 from dotenv import load_dotenv
 from PIL import Image
 
-from invoice_pipeline.dataset import plan
+from invoice_pipeline.dataset import plan, read_split_rows, write_split_rows
 from invoice_pipeline.scan import PROFILES, assign_profiles, make_scan
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,8 +28,8 @@ pdf_dir = ROOT / "data" / "synthetic" / "pdf"
 scan_dir = ROOT / "data" / "synthetic" / "scanned"
 scan_dir.mkdir(parents=True, exist_ok=True)
 
-with (ROOT / "data" / "split.csv").open(encoding="utf-8") as f:
-    rows = list(csv.DictReader(f))
+all_rows = read_split_rows(ROOT)
+rows = [r for r in all_rows if r["split"] != "challenge"]  # the challenge set has its own builder
 profiles = assign_profiles(plan(len(rows)))
 
 for row, prof in zip(rows, profiles):
@@ -38,10 +38,7 @@ for row, prof in zip(rows, profiles):
     make_scan(pdf_dir / f"{row['invoice_id']}.pdf", scan_dir / f"{row['invoice_id']}.pdf",
               PROFILES[prof], seed * 100_000 + i)
 
-with (ROOT / "data" / "split.csv").open("w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=list(rows[0]))
-    w.writeheader()
-    w.writerows(rows)
+write_split_rows(ROOT, all_rows)  # rows are the same objects, now with scan_profile
 
 print(f"Built {len(rows)} scanned PDFs in {scan_dir}")
 print("By profile:", dict(Counter(r["scan_profile"] for r in rows)))
@@ -52,6 +49,7 @@ with_text = sum(
 print("Scans that still contain a text layer:", with_text, "(must be 0)")
 
 # OCR sanity check on every 4th invoice: is the invoice number recognised?
+import json
 hits = Counter()
 total = Counter()
 for r in rows[::4]:

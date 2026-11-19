@@ -1,0 +1,49 @@
+{
+  "invoice_number": "INV-2025-7604",
+  "supplier_name": "Ironwood Logistics LLC",
+  "supplier_tax_id": "31-2163868",
+  "invoice_date": "2025-01-22",
+  "due_date": "2025-02-05",
+  "currency": "USD",
+  "subtotal": 4351.97,
+  "tax_amount": 0.0,
+  "total_amount": 4351.97,
+  "line_items": [
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 2.0,
+      "unit_price": 80.14,
+      "line_total": 160.28
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 13.0,
+      "unit_price": 7.76,
+      "line_total": 100.88
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 11.0,
+      "unit_price": 316.59,
+      "line_total": 3482.49
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 3.0,
+      "unit_price": 3.74,
+      "line_total": 11.22
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 17.0,
+      "unit_price": 34.52,
+      "line_total": 586.84
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 3.0,
+      "unit_price": 3.42,
+      "line_total": 10.26
+    }
+  ]
+}

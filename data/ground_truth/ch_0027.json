@@ -1,0 +1,49 @@
+{
+  "invoice_number": "INV-2025-9799",
+  "supplier_name": "Crestview Consulting Inc.",
+  "supplier_tax_id": "89-4224883",
+  "invoice_date": "2025-05-27",
+  "due_date": "2025-07-11",
+  "currency": "USD",
+  "subtotal": 6715.51,
+  "tax_amount": 554.03,
+  "total_amount": 7269.54,
+  "line_items": [
+    {
+      "description": "Delivery and installation",
+      "quantity": 13.0,
+      "unit_price": 134.59,
+      "line_total": 1749.67
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 20.0,
+      "unit_price": 62.25,
+      "line_total": 1245.0
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 12.0,
+      "unit_price": 7.95,
+      "line_total": 95.4
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 10.0,
+      "unit_price": 231.58,
+      "line_total": 2315.8
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 14.0,
+      "unit_price": 25.36,
+      "line_total": 355.04
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 15.0,
+      "unit_price": 63.64,
+      "line_total": 954.6
+    }
+  ]
+}

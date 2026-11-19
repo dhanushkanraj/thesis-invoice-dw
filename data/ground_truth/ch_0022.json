@@ -1,0 +1,31 @@
+{
+  "invoice_number": "INV000618",
+  "supplier_name": "Ironwood Industrial Ltd",
+  "supplier_tax_id": null,
+  "invoice_date": "2025-12-17",
+  "due_date": "2025-12-31",
+  "currency": "EUR",
+  "subtotal": 4661.39,
+  "tax_amount": 0.0,
+  "total_amount": 4661.39,
+  "line_items": [
+    {
+      "description": "Delivery and installation",
+      "quantity": 15.0,
+      "unit_price": 138.55,
+      "line_total": 2078.25
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 10.0,
+      "unit_price": 3.57,
+      "line_total": 35.7
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 8.0,
+      "unit_price": 318.43,
+      "line_total": 2547.44
+    }
+  ]
+}

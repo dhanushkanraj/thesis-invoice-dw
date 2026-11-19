@@ -1,0 +1,19 @@
+{
+  "invoice_number": "INV-2025-0595",
+  "supplier_name": "Ironwood Wholesale GmbH",
+  "supplier_tax_id": "FR89303205056",
+  "invoice_date": "2025-01-25",
+  "due_date": "2025-03-11",
+  "currency": "EUR",
+  "subtotal": 801.84,
+  "tax_amount": 72.17,
+  "total_amount": 874.01,
+  "line_items": [
+    {
+      "description": "LED desk lamp",
+      "quantity": 13.0,
+      "unit_price": 61.68,
+      "line_total": 801.84
+    }
+  ]
+}

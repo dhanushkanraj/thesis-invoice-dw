@@ -1,0 +1,85 @@
+{
+  "invoice_number": "2025/4896",
+  "supplier_name": "Summit Systems Ltd",
+  "supplier_tax_id": "GB200429809",
+  "invoice_date": "2025-11-11",
+  "due_date": "2026-01-10",
+  "currency": "GBP",
+  "subtotal": 11473.47,
+  "tax_amount": 2294.69,
+  "total_amount": 13768.16,
+  "line_items": [
+    {
+      "description": "Wireless keyboard",
+      "quantity": 16.0,
+      "unit_price": 72.87,
+      "line_total": 1165.92
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 7.0,
+      "unit_price": 172.51,
+      "line_total": 1207.57
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 4.0,
+      "unit_price": 2.63,
+      "line_total": 10.52
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 10.0,
+      "unit_price": 22.28,
+      "line_total": 222.8
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 20.0,
+      "unit_price": 106.64,
+      "line_total": 2132.8
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 4.0,
+      "unit_price": 194.26,
+      "line_total": 777.04
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 7.5,
+      "unit_price": 96.4,
+      "line_total": 723.0
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 9.0,
+      "unit_price": 417.65,
+      "line_total": 3758.85
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 2.0,
+      "unit_price": 186.46,
+      "line_total": 372.92
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 2.0,
+      "unit_price": 33.25,
+      "line_total": 66.5
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 15.0,
+      "unit_price": 4.53,
+      "line_total": 67.95
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 8.0,
+      "unit_price": 120.95,
+      "line_total": 967.6
+    }
+  ]
+}

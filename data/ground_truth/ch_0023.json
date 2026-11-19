@@ -1,0 +1,19 @@
+{
+  "invoice_number": "INV009360",
+  "supplier_name": "Crestview Consulting LLC",
+  "supplier_tax_id": "53-0837111",
+  "invoice_date": "2025-07-30",
+  "due_date": "2025-09-13",
+  "currency": "USD",
+  "subtotal": null,
+  "tax_amount": 2.18,
+  "total_amount": 28.57,
+  "line_items": [
+    {
+      "description": "Ring binder A4",
+      "quantity": 7.0,
+      "unit_price": 3.77,
+      "line_total": 26.39
+    }
+  ]
+}

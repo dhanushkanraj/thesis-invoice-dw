@@ -1,0 +1,31 @@
+{
+  "invoice_number": "2026/4204",
+  "supplier_name": "Brightline Technologies Ltd",
+  "supplier_tax_id": "NL767435273B85",
+  "invoice_date": "2026-02-28",
+  "due_date": "2026-03-30",
+  "currency": "EUR",
+  "subtotal": 1232.53,
+  "tax_amount": 0.0,
+  "total_amount": 1232.53,
+  "line_items": [
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 5.0,
+      "unit_price": 8.45,
+      "line_total": 42.25
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 1.0,
+      "unit_price": 587.58,
+      "line_total": 587.58
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 6.0,
+      "unit_price": 100.45,
+      "line_total": 602.7
+    }
+  ]
+}

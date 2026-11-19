@@ -1,0 +1,49 @@
+{
+  "invoice_number": "INV-2025-8470",
+  "supplier_name": "Evergreen Technologies Corp.",
+  "supplier_tax_id": "39-9872857",
+  "invoice_date": "2025-04-19",
+  "due_date": "2025-05-19",
+  "currency": "USD",
+  "subtotal": 7193.08,
+  "tax_amount": 593.43,
+  "total_amount": 7786.51,
+  "line_items": [
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 9.0,
+      "unit_price": 19.02,
+      "line_total": 171.18
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 6.0,
+      "unit_price": 151.01,
+      "line_total": 906.06
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 16.0,
+      "unit_price": 61.64,
+      "line_total": 986.24
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 5.0,
+      "unit_price": 32.0,
+      "line_total": 160.0
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 8.0,
+      "unit_price": 77.79,
+      "line_total": 622.32
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 14.0,
+      "unit_price": 310.52,
+      "line_total": 4347.28
+    }
+  ]
+}

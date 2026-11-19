@@ -1,0 +1,43 @@
+{
+  "invoice_number": "#05981",
+  "supplier_name": "Crestview Supplies Ltd",
+  "supplier_tax_id": "GB744803479",
+  "invoice_date": "2025-06-27",
+  "due_date": null,
+  "currency": "GBP",
+  "subtotal": 7931.78,
+  "tax_amount": 1586.36,
+  "total_amount": 9518.14,
+  "line_items": [
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 5.0,
+      "unit_price": 253.92,
+      "line_total": 1269.6
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 11.0,
+      "unit_price": 327.98,
+      "line_total": 3607.78
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 7.0,
+      "unit_price": 62.43,
+      "line_total": 437.01
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 8.0,
+      "unit_price": 275.11,
+      "line_total": 2200.88
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 1.0,
+      "unit_price": 416.51,
+      "line_total": 416.51
+    }
+  ]
+}

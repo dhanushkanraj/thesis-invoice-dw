@@ -1,0 +1,67 @@
+{
+  "invoice_number": "#03133",
+  "supplier_name": "Crestview Systems LLC",
+  "supplier_tax_id": "23-6833269",
+  "invoice_date": "2025-02-21",
+  "due_date": "2025-04-07",
+  "currency": "USD",
+  "subtotal": 9257.27,
+  "tax_amount": 821.58,
+  "total_amount": 10078.85,
+  "line_items": [
+    {
+      "description": "USB-C docking station",
+      "quantity": 20.0,
+      "unit_price": 94.37,
+      "line_total": 1887.4
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 16.0,
+      "unit_price": 13.9,
+      "line_total": 222.4
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 1.0,
+      "unit_price": 11.65,
+      "line_total": 11.65
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 6.0,
+      "unit_price": 370.16,
+      "line_total": 2220.96
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 11.0,
+      "unit_price": 81.37,
+      "line_total": 895.07
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 14.0,
+      "unit_price": 52.66,
+      "line_total": 737.24
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 5.0,
+      "unit_price": 482.23,
+      "line_total": 2411.15
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 2.0,
+      "unit_price": 300.64,
+      "line_total": 601.28
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 4.0,
+      "unit_price": 67.53,
+      "line_total": 270.12
+    }
+  ]
+}

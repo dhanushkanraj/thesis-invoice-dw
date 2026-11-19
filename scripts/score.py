@@ -3,7 +3,8 @@
 Usage:  python scripts/score.py m1            (reads outputs/m1/{digital,scanned}/*.json)
         python scripts/score.py m2_qwen3-4b
 Scores every invoice that has a prediction file, restricted to the development
-and tuning splits (or heldout with --heldout).
+and tuning splits (or the held-out split with --heldout, or the challenge set
+with --challenge; their result files get the suffix _heldout / _challenge).
 """
 import csv
 import json
@@ -13,10 +14,11 @@ from pathlib import Path
 import pandas as pd
 
 from invoice_pipeline.evaluate import HEADER_FIELDS, evaluate_invoice
+from invoice_pipeline.splits import select_splits
 
 ROOT = Path(__file__).resolve().parents[1]
 method = sys.argv[1]
-splits = {"heldout"} if "--heldout" in sys.argv else {"development", "tuning"}
+splits, suffix = select_splits("--heldout" in sys.argv, "--challenge" in sys.argv)
 with (ROOT / "data" / "split.csv").open(encoding="utf-8") as f:
     rows = [r for r in csv.DictReader(f) if r["split"] in splits]
 
@@ -44,8 +46,8 @@ if not records:
     raise SystemExit(f"No predictions found in outputs/{method}/")
 fields, items = pd.DataFrame(records), pd.DataFrame(item_records)
 out_dir = ROOT / "outputs" / method
-fields.to_csv(out_dir / "fields.csv", index=False)
-items.to_csv(out_dir / "items.csv", index=False)
+fields.to_csv(out_dir / f"fields{suffix}.csv", index=False)
+items.to_csv(out_dir / f"items{suffix}.csv", index=False)
 
 print(f"{method}: scored {items.groupby('input').size().to_dict()} invoices, splits {sorted(splits)}\n")
 acc = fields.assign(ok=fields.outcome == "correct").pivot_table(

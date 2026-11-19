@@ -1,0 +1,31 @@
+{
+  "invoice_number": "2026/0752",
+  "supplier_name": "Bluepeak Industrial B.V.",
+  "supplier_tax_id": "NL991091662B57",
+  "invoice_date": "2026-03-08",
+  "due_date": "2026-05-07",
+  "currency": "EUR",
+  "subtotal": 7001.35,
+  "tax_amount": 1470.28,
+  "total_amount": 8471.63,
+  "line_items": [
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 11.0,
+      "unit_price": 260.52,
+      "line_total": 2865.72
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 7.0,
+      "unit_price": 460.59,
+      "line_total": 3224.13
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 10.0,
+      "unit_price": 91.15,
+      "line_total": 911.5
+    }
+  ]
+}

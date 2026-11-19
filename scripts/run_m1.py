@@ -1,8 +1,9 @@
 """Run M1 (rules only) on digital PDFs and on scanned PDFs and score it.
 
-Usage:  python scripts/run_m1.py [--heldout]
+Usage:  python scripts/run_m1.py [--heldout | --challenge]
 By default only the development and tuning splits are used. The held-out
-split is reserved for the final comparison (pass --heldout only then).
+split and the challenge set are reserved for the final comparison (pass
+--heldout or --challenge only then, once each).
 """
 import csv
 import json
@@ -15,12 +16,13 @@ from dotenv import load_dotenv
 from invoice_pipeline.baseline import extract_invoice
 from invoice_pipeline.evaluate import HEADER_FIELDS, evaluate_invoice
 from invoice_pipeline.extract_text import configure_tesseract, get_lines
+from invoice_pipeline.splits import select_splits
 
 ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / ".env")
 configure_tesseract()
 
-splits = {"heldout"} if "--heldout" in sys.argv else {"development", "tuning"}
+splits, suffix = select_splits("--heldout" in sys.argv, "--challenge" in sys.argv)
 with (ROOT / "data" / "split.csv").open(encoding="utf-8") as f:
     rows = [r for r in csv.DictReader(f) if r["split"] in splits]
 
@@ -49,8 +51,8 @@ for kind, folder in (("digital", "pdf"), ("scanned", "scanned")):
 
 fields = pd.DataFrame(records)
 items = pd.DataFrame(item_records)
-fields.to_csv(out_dir / "m1_fields.csv", index=False)
-items.to_csv(out_dir / "m1_items.csv", index=False)
+fields.to_csv(out_dir / f"m1_fields{suffix}.csv", index=False)
+items.to_csv(out_dir / f"m1_items{suffix}.csv", index=False)
 
 print(f"M1 rule-based baseline, splits: {sorted(splits)}, invoices: {len(rows)}\n")
 acc = fields.assign(ok=fields.outcome == "correct").pivot_table(

@@ -1,0 +1,25 @@
+{
+  "invoice_number": "INV-2025-4182",
+  "supplier_name": "Ashford Technologies Ltd",
+  "supplier_tax_id": "GB254235732",
+  "invoice_date": "2025-05-14",
+  "due_date": "2025-05-28",
+  "currency": "GBP",
+  "subtotal": 6331.82,
+  "tax_amount": 1266.36,
+  "total_amount": 7598.18,
+  "line_items": [
+    {
+      "description": "27-inch monitor",
+      "quantity": 19.0,
+      "unit_price": 332.13,
+      "line_total": 6310.47
+    },
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 5.0,
+      "unit_price": 4.27,
+      "line_total": 21.35
+    }
+  ]
+}

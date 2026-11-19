@@ -1,0 +1,55 @@
+{
+  "invoice_number": "#01358",
+  "supplier_name": "Bluepeak Consulting Ltd",
+  "supplier_tax_id": "GB183905396",
+  "invoice_date": "2026-04-15",
+  "due_date": null,
+  "currency": "GBP",
+  "subtotal": 13263.58,
+  "tax_amount": 2652.72,
+  "total_amount": 15916.3,
+  "line_items": [
+    {
+      "description": "Consulting services, hours",
+      "quantity": 1.0,
+      "unit_price": 107.76,
+      "line_total": 107.76
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 10.0,
+      "unit_price": 28.35,
+      "line_total": 283.5
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 14.0,
+      "unit_price": 360.14,
+      "line_total": 5041.96
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 12.0,
+      "unit_price": 360.12,
+      "line_total": 4321.44
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 14.0,
+      "unit_price": 2.27,
+      "line_total": 31.78
+    },
+    {
+      "description": "USB-C docking station",
+      "quantity": 19.0,
+      "unit_price": 179.88,
+      "line_total": 3417.72
+    },
+    {
+      "description": "Wireless keyboard",
+      "quantity": 1.0,
+      "unit_price": 59.42,
+      "line_total": 59.42
+    }
+  ]
+}

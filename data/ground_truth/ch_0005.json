@@ -1,0 +1,91 @@
+{
+  "invoice_number": "RE-2025-0064",
+  "supplier_name": "Schneider Elektro AG",
+  "supplier_tax_id": "DE676469870",
+  "invoice_date": "2025-04-06",
+  "due_date": "2025-06-05",
+  "currency": "EUR",
+  "subtotal": 22193.19,
+  "tax_amount": 4216.71,
+  "total_amount": 26409.9,
+  "line_items": [
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 7.0,
+      "unit_price": 5.34,
+      "line_total": 37.38
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 7.0,
+      "unit_price": 14.79,
+      "line_total": 103.53
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 4.0,
+      "unit_price": 114.97,
+      "line_total": 459.88
+    },
+    {
+      "description": "Ordner A4, breit",
+      "quantity": 17.0,
+      "unit_price": 2.9,
+      "line_total": 49.3
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 9.0,
+      "unit_price": 163.51,
+      "line_total": 1471.59
+    },
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 19.0,
+      "unit_price": 370.54,
+      "line_total": 7040.26
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 3.0,
+      "unit_price": 45.6,
+      "line_total": 136.8
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 14.0,
+      "unit_price": 27.53,
+      "line_total": 385.42
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 20.0,
+      "unit_price": 156.95,
+      "line_total": 3139.0
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 15.0,
+      "unit_price": 347.87,
+      "line_total": 5218.05
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 14.0,
+      "unit_price": 80.87,
+      "line_total": 1132.18
+    },
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 19.0,
+      "unit_price": 156.52,
+      "line_total": 2973.88
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 8.0,
+      "unit_price": 5.74,
+      "line_total": 45.92
+    }
+  ]
+}

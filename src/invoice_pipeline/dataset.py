@@ -59,9 +59,36 @@ def pdf_text(path: Path) -> str:
     return " ".join(text.split())
 
 
-def check_against_pdf(g: GeneratedInvoice, text: str) -> list[str]:
-    """Return a list of problems (empty = the PDF matches its answer key)."""
+def read_split_rows(root: Path) -> list[dict]:
+    path = root / "data" / "split.csv"
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def write_split_rows(root: Path, rows: list[dict]) -> None:
+    """Write data/split.csv; columns are the union of all rows' keys (first-seen order)."""
+    fieldnames: list[str] = []
+    for r in rows:
+        for key in r:
+            if key not in fieldnames:
+                fieldnames.append(key)
+    path = root / "data" / "split.csv"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, restval="")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def check_against_pdf(g: GeneratedInvoice, text: str, labels: dict | None = None) -> list[str]:
+    """Return a list of problems (empty = the PDF matches its answer key).
+
+    `labels` are the label words printed on the invoice (default: the locale's own).
+    """
     locale = get_locale(g.locale_code)
+    labels = labels or locale.labels
     t = g.truth
     problems = []
 
@@ -81,11 +108,11 @@ def check_against_pdf(g: GeneratedInvoice, text: str) -> list[str]:
         )
         need("line item", row)
     if t.supplier_tax_id is None:
-        if locale.labels["tax_id"] in text:
+        if labels["tax_id"] in text:
             problems.append("tax id is null but its label is printed")
     else:
         need("supplier_tax_id", t.supplier_tax_id)
-    if t.due_date is None and locale.labels["due_date"] in text:
+    if t.due_date is None and labels["due_date"] in text:
         problems.append("due date is null but its label is printed")
     return problems
 
@@ -124,8 +151,7 @@ def build_dataset(root: Path, n: int = 120, seed: int = 2026) -> dict:
                 "has_subtotal": g.truth.subtotal is not None,
             }
         )
-    with (root / "data" / "split.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]))
-        writer.writeheader()
-        writer.writerows(rows)
+    # keep the challenge rows (if any): they belong to another build
+    kept = [r for r in read_split_rows(root) if r.get("split") == "challenge"]
+    write_split_rows(root, rows + kept)
     return {"rows": rows, "failures": failures}

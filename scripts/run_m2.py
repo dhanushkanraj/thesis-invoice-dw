@@ -12,6 +12,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from invoice_pipeline.llm import extract_with_llm
+from invoice_pipeline.splits import select_splits
 
 ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / ".env")
@@ -21,9 +22,10 @@ ap.add_argument("--model", default="qwen3:4b")
 ap.add_argument("--limit", type=int, default=0, help="only the first N invoices (smoke test)")
 ap.add_argument("--kinds", default="digital,scanned")
 ap.add_argument("--heldout", action="store_true", help="final evaluation only")
+ap.add_argument("--challenge", action="store_true", help="final evaluation only")
 args = ap.parse_args()
 
-splits = {"heldout"} if args.heldout else {"development", "tuning"}
+splits, _ = select_splits(args.heldout, args.challenge)
 with (ROOT / "data" / "split.csv").open(encoding="utf-8") as f:
     rows = [r for r in csv.DictReader(f) if r["split"] in splits]
 if args.limit:

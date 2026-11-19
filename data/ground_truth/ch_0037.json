@@ -1,0 +1,43 @@
+{
+  "invoice_number": "R202501263",
+  "supplier_name": "Hoffmann Software e.K.",
+  "supplier_tax_id": "DE192413940",
+  "invoice_date": "2025-10-06",
+  "due_date": null,
+  "currency": "EUR",
+  "subtotal": 10934.07,
+  "tax_amount": 2077.47,
+  "total_amount": 13011.54,
+  "line_items": [
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 15.0,
+      "unit_price": 431.61,
+      "line_total": 6474.15
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 14.0,
+      "unit_price": 72.01,
+      "line_total": 1008.14
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 2.0,
+      "unit_price": 9.42,
+      "line_total": 18.84
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 2.0,
+      "unit_price": 100.63,
+      "line_total": 201.26
+    },
+    {
+      "description": "Monitor 27 Zoll",
+      "quantity": 8.0,
+      "unit_price": 403.96,
+      "line_total": 3231.68
+    }
+  ]
+}

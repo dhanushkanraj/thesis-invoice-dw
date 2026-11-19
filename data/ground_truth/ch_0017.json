@@ -1,0 +1,85 @@
+{
+  "invoice_number": "RE-2026-2229",
+  "supplier_name": "Weber Maschinenbau e.K.",
+  "supplier_tax_id": "DE588585698",
+  "invoice_date": "2026-06-16",
+  "due_date": "2026-06-30",
+  "currency": "EUR",
+  "subtotal": 25880.97,
+  "tax_amount": 0.0,
+  "total_amount": 25880.97,
+  "line_items": [
+    {
+      "description": "Ergonomischer Bürostuhl",
+      "quantity": 11.0,
+      "unit_price": 437.5,
+      "line_total": 4812.5
+    },
+    {
+      "description": "Server-Wartung, Stunden",
+      "quantity": 1.0,
+      "unit_price": 82.24,
+      "line_total": 82.24
+    },
+    {
+      "description": "Druckerpapier A4, 500 Blatt",
+      "quantity": 8.0,
+      "unit_price": 6.29,
+      "line_total": 50.32
+    },
+    {
+      "description": "Lieferung und Montage",
+      "quantity": 15.0,
+      "unit_price": 76.92,
+      "line_total": 1153.8
+    },
+    {
+      "description": "Toner schwarz, Kartusche",
+      "quantity": 16.0,
+      "unit_price": 99.56,
+      "line_total": 1592.96
+    },
+    {
+      "description": "LED-Schreibtischlampe",
+      "quantity": 20.0,
+      "unit_price": 69.97,
+      "line_total": 1399.4
+    },
+    {
+      "description": "Kabellose Tastatur",
+      "quantity": 3.0,
+      "unit_price": 32.0,
+      "line_total": 96.0
+    },
+    {
+      "description": "Netzwerkkabel Cat6, 5 m",
+      "quantity": 13.0,
+      "unit_price": 6.98,
+      "line_total": 90.74
+    },
+    {
+      "description": "Reinigungsservice, monatlich",
+      "quantity": 18.0,
+      "unit_price": 502.52,
+      "line_total": 9045.36
+    },
+    {
+      "description": "Beratungsleistung, Stunden",
+      "quantity": 7.5,
+      "unit_price": 132.12,
+      "line_total": 990.9
+    },
+    {
+      "description": "Verpackungskartons, 25 Stück",
+      "quantity": 7.0,
+      "unit_price": 22.05,
+      "line_total": 154.35
+    },
+    {
+      "description": "Software-Lizenz, jährlich",
+      "quantity": 20.0,
+      "unit_price": 320.62,
+      "line_total": 6412.4
+    }
+  ]
+}

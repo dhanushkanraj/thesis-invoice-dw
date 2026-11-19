@@ -11,15 +11,17 @@ import json
 from dataclasses import asdict
 from pathlib import Path
 
+from invoice_pipeline.splits import select_splits
 from invoice_pipeline.validate import needs_review, validate
 
 ROOT = Path(__file__).resolve().parents[1]
 ap = argparse.ArgumentParser()
 ap.add_argument("--source", default="m2_qwen3-4b")
 ap.add_argument("--heldout", action="store_true")
+ap.add_argument("--challenge", action="store_true")
 args = ap.parse_args()
 
-splits = {"heldout"} if args.heldout else {"development", "tuning"}
+splits, _ = select_splits(args.heldout, args.challenge)
 with (ROOT / "data" / "split.csv").open(encoding="utf-8") as f:
     rows = [r for r in csv.DictReader(f) if r["split"] in splits]
 

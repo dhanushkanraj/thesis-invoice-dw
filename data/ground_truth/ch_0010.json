@@ -1,0 +1,37 @@
+{
+  "invoice_number": "INV002190",
+  "supplier_name": "Bluepeak Logistics Ltd",
+  "supplier_tax_id": "NL599713361B78",
+  "invoice_date": "2025-01-28",
+  "due_date": "2025-02-11",
+  "currency": "EUR",
+  "subtotal": 6582.88,
+  "tax_amount": 1382.4,
+  "total_amount": 7965.28,
+  "line_items": [
+    {
+      "description": "USB-C docking station",
+      "quantity": 20.0,
+      "unit_price": 175.48,
+      "line_total": 3509.6
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 2.0,
+      "unit_price": 130.76,
+      "line_total": 261.52
+    },
+    {
+      "description": "Toner cartridge, black",
+      "quantity": 20.0,
+      "unit_price": 92.6,
+      "line_total": 1852.0
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 4.0,
+      "unit_price": 239.94,
+      "line_total": 959.76
+    }
+  ]
+}

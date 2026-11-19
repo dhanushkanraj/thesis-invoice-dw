@@ -1,0 +1,85 @@
+{
+  "invoice_number": "#09059",
+  "supplier_name": "Ashford Wholesale B.V.",
+  "supplier_tax_id": "FR38994254177",
+  "invoice_date": "2025-12-07",
+  "due_date": "2025-12-21",
+  "currency": "EUR",
+  "subtotal": 23379.34,
+  "tax_amount": 5377.25,
+  "total_amount": 28756.59,
+  "line_items": [
+    {
+      "description": "Network cable Cat6, 5 m",
+      "quantity": 4.0,
+      "unit_price": 5.62,
+      "line_total": 22.48
+    },
+    {
+      "description": "LED desk lamp",
+      "quantity": 15.0,
+      "unit_price": 24.48,
+      "line_total": 367.2
+    },
+    {
+      "description": "Cleaning service, monthly",
+      "quantity": 17.0,
+      "unit_price": 451.58,
+      "line_total": 7676.86
+    },
+    {
+      "description": "Software license, annual",
+      "quantity": 16.0,
+      "unit_price": 230.04,
+      "line_total": 3680.64
+    },
+    {
+      "description": "Shipping cartons, pack of 25",
+      "quantity": 8.0,
+      "unit_price": 18.66,
+      "line_total": 149.28
+    },
+    {
+      "description": "Delivery and installation",
+      "quantity": 17.0,
+      "unit_price": 142.4,
+      "line_total": 2420.8
+    },
+    {
+      "description": "Consulting services, hours",
+      "quantity": 4.0,
+      "unit_price": 152.14,
+      "line_total": 608.56
+    },
+    {
+      "description": "27-inch monitor",
+      "quantity": 19.0,
+      "unit_price": 286.35,
+      "line_total": 5440.65
+    },
+    {
+      "description": "Ring binder A4",
+      "quantity": 10.0,
+      "unit_price": 2.41,
+      "line_total": 24.1
+    },
+    {
+      "description": "Printer paper A4, 500 sheets",
+      "quantity": 7.0,
+      "unit_price": 4.07,
+      "line_total": 28.49
+    },
+    {
+      "description": "Server maintenance, hours",
+      "quantity": 1.5,
+      "unit_price": 73.14,
+      "line_total": 109.71
+    },
+    {
+      "description": "Ergonomic office chair",
+      "quantity": 9.0,
+      "unit_price": 316.73,
+      "line_total": 2850.57
+    }
+  ]
+}
