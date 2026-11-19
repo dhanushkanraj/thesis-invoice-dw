@@ -38,10 +38,16 @@ def test_invented_subtotal_is_dropped_without_review():
     assert rules(issues, "repair") == {("subtotal", "grounding")} and not needs_review(issues)
 
 
-def test_wrong_total_is_nulled_and_flagged():
+def test_unprinted_total_is_kept_and_flagged():
     out, issues = run(total_amount=319.40)
-    assert out["total_amount"] is None and needs_review(issues)
+    assert out["total_amount"] == 319.40 and needs_review(issues)
     assert ("total_amount", "grounding") in rules(issues, "review")
+
+
+def test_unprinted_required_fields_keep_their_value_but_are_flagged():
+    out, issues = run(invoice_number="ZZ-1", invoice_date="2025-01-01")
+    assert out["invoice_number"] == "ZZ-1" and out["invoice_date"] == "2025-01-01"
+    assert {("invoice_number", "grounding"), ("invoice_date", "grounding")} <= rules(issues, "review")
 
 
 def test_total_that_is_printed_but_does_not_add_up_is_flagged():

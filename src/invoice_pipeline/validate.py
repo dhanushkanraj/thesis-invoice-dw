@@ -7,7 +7,9 @@ Two severities:
   repair  an OPTIONAL field (subtotal, due_date, supplier_tax_id) whose value is not printed
           in the document is set to null. Logged, but does not need a person.
   review  something is wrong or suspicious that the code cannot decide: the invoice goes to
-          the human review queue. Required fields that fail a check are set to null.
+          the human review queue. A REQUIRED field whose value is merely not found in the text
+          keeps its value (the reviewer sees it next to the flag; OCR noise often hides a correct
+          value from the check). A value of the wrong type is set to null, because it is unusable.
 
 Checks:
   type        every value has the schema's type (strict: "12,5" for a number is rejected)
@@ -71,6 +73,8 @@ def validate(pred: dict, lines: list[str]) -> tuple[dict, list[Issue]]:
     def drop(field: str, rule: str, message: str) -> None:
         severity = "repair" if (field in OPTIONAL and rule == "grounding") else "review"
         issues.append(Issue(field, rule, severity, message))
+        if rule == "grounding" and field not in OPTIONAL:
+            return  # flag only: the value stays so a reviewer can confirm or correct it
         out[field] = None
 
     # 1. types
