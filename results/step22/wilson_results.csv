@@ -1,0 +1,37 @@
+measure,set,method,model,input,k,n,percent,wilson_low,wilson_high
+exact,held-out,M1 rules,-,digital,24,24,100.0,86.2,100.0
+exact,held-out,M1 rules,-,scanned,3,24,12.5,4.3,31.0
+exact,held-out,M2 LLM alone,Qwen3 4B,digital,18,24,75.0,55.1,88.0
+exact,held-out,M2 LLM alone,Qwen3 4B,scanned,4,24,16.7,6.7,35.9
+exact,held-out,M2 LLM alone,Qwen2.5 3B,digital,14,24,58.3,38.8,75.5
+exact,held-out,M2 LLM alone,Qwen2.5 3B,scanned,4,24,16.7,6.7,35.9
+exact,held-out,M3 LLM + validation,Qwen3 4B,digital,19,24,79.2,59.5,90.8
+exact,held-out,M3 LLM + validation,Qwen3 4B,scanned,4,24,16.7,6.7,35.9
+exact,held-out,M3 LLM + validation,Qwen2.5 3B,digital,14,24,58.3,38.8,75.5
+exact,held-out,M3 LLM + validation,Qwen2.5 3B,scanned,4,24,16.7,6.7,35.9
+exact,held-out,M4 + perfect reviewer,Qwen3 4B,digital,22,24,91.7,74.2,97.7
+exact,held-out,M4 + perfect reviewer,Qwen3 4B,scanned,17,24,70.8,50.8,85.1
+exact,held-out,M4 + perfect reviewer,Qwen2.5 3B,digital,19,24,79.2,59.5,90.8
+exact,held-out,M4 + perfect reviewer,Qwen2.5 3B,scanned,18,24,75.0,55.1,88.0
+exact,challenge,M1 rules,-,digital,0,40,0.0,0.0,8.8
+exact,challenge,M1 rules,-,scanned,0,40,0.0,0.0,8.8
+exact,challenge,M2 LLM alone,Qwen3 4B,digital,37,40,92.5,80.1,97.4
+exact,challenge,M2 LLM alone,Qwen3 4B,scanned,4,40,10.0,4.0,23.1
+exact,challenge,M2 LLM alone,Qwen2.5 3B,digital,15,40,37.5,24.2,53.0
+exact,challenge,M2 LLM alone,Qwen2.5 3B,scanned,3,40,7.5,2.6,19.9
+exact,challenge,M3 LLM + validation,Qwen3 4B,digital,37,40,92.5,80.1,97.4
+exact,challenge,M3 LLM + validation,Qwen3 4B,scanned,4,40,10.0,4.0,23.1
+exact,challenge,M3 LLM + validation,Qwen2.5 3B,digital,15,40,37.5,24.2,53.0
+exact,challenge,M3 LLM + validation,Qwen2.5 3B,scanned,3,40,7.5,2.6,19.9
+exact,challenge,M4 + perfect reviewer,Qwen3 4B,digital,38,40,95.0,83.5,98.6
+exact,challenge,M4 + perfect reviewer,Qwen3 4B,scanned,24,40,60.0,44.6,73.7
+exact,challenge,M4 + perfect reviewer,Qwen2.5 3B,digital,28,40,70.0,54.6,81.9
+exact,challenge,M4 + perfect reviewer,Qwen2.5 3B,scanned,30,40,75.0,59.8,85.8
+flagged,held-out,M3 flags,Qwen3 4B,digital,3,24,12.5,4.3,31.0
+flagged,held-out,M3 flags,Qwen3 4B,scanned,14,24,58.3,38.8,75.5
+flagged,held-out,M3 flags,Qwen2.5 3B,digital,5,24,20.8,9.2,40.5
+flagged,held-out,M3 flags,Qwen2.5 3B,scanned,15,24,62.5,42.7,78.8
+flagged,challenge,M3 flags,Qwen3 4B,digital,1,40,2.5,0.4,12.9
+flagged,challenge,M3 flags,Qwen3 4B,scanned,20,40,50.0,35.2,64.8
+flagged,challenge,M3 flags,Qwen2.5 3B,digital,13,40,32.5,20.1,48.0
+flagged,challenge,M3 flags,Qwen2.5 3B,scanned,27,40,67.5,52.0,79.9
